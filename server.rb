@@ -63,8 +63,9 @@ end
 get '/download' do
 
   last_user_query = JSON.parse session[:search_key]
-  query_type = last_user_query["type"]
+  query_type   = last_user_query["type"]
   query_string = last_user_query["string"]
+  filters      = last_user_query['filters']
 
   page = 0
   more_to_write = true
@@ -72,7 +73,7 @@ get '/download' do
     headers = CSV_OUTPUT_FIELDS.map{|field| field.to_s.gsub(/_/, ' ').strip.capitalize}
     csv << headers
     while more_to_write
-      @current_page = send("#{query_type}_search".to_sym, query_string, :search, page)
+      @current_page = send("#{query_type}_search".to_sym, query_string, filters, :search, page)
       if @current_page.length < PAGE_SEARCH_SIZE - 1
         more_to_write = false
       end
@@ -97,7 +98,8 @@ get '/browse/?:type?/?:id?/?' do
   id   = params[:id]
   if params[:id]
     @item = send("retrieve_#{type}_by_id".to_sym, id)
-    @related = find_specimen_by_case_number( @item[:case_number] ).keep_if{|e| e[:id] != id}
+    ap @item
+    @related = find_specimen_by_case_number( @item[:case_number] )
     haml "#{params[:type]}_profile".to_sym
   elsif params[:type]
     @children = HTTParty.get( "http://localhost:9200/bsi/#{params[:type]}/_search?type:#{params[:type]}").parsed_response["hits"]["hits"].map do |hit|

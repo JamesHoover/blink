@@ -9,7 +9,7 @@
       %form#filter.well.form-horizontal(data-spy='affix' data-offset-top='5' method='POST' action="#{request.base_url}/search?#{query_string.to_s}")
         %fieldset
           %legend
-            Filter
+            Available Filters
           - filter_fields.keys.each do |field|
             .control-group
               %label.control-label
@@ -25,16 +25,19 @@
                         %option(selected='selected') #{option}
                       - else
                         %option #{option}
-          %hr
-          - filters.each do |k,v|
-            .control-group
-              %label.control-label
-                #{k.gsub(/_/, ' ').strip.capitalize}:
-              .controls
-                %select.filter.input-large(id="#{k}" name='#{k}')
-                  %option #{v}
-          .form-actions
-            %button#submit_filters.btn.btn-primary(type='submit') Filter
+        - if filters.length > 0
+          %fieldset
+            %legend
+              Applied Filters
+            - filters.each do |k,v|
+              .control-group
+                %label.control-label
+                  #{k.gsub(/_/, ' ').strip.capitalize}:
+                .controls
+                  %input.filter.input-large(type='text' id="#{k}" name='#{k}' value="#{v}")
+        .form-actions
+          %a#reset_filters.btn.btn-error(href="#{request.base_url}/search?#{query_string.to_s}") Reset
+          %button#submit_filters.btn.btn-primary(type='submit') Filter
     .span6
       #results.well
         %h4.span3
@@ -53,4 +56,3 @@
 = javascript_include_tag '/js/bootstrap-affix.js'
 = javascript_include_tag '/js/bootstrap-dropdown.js'
 = javascript_include_tag '/js/search.js'
-

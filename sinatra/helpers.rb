@@ -39,7 +39,7 @@ module Sinatra
                   end
                   filters.each do |k,v|
                     must do
-                      term k.to_s,v.to_s.downcase
+                      string "*#{v}*", {:fields => [k.to_s] }
                     end
                   end
                 end
@@ -51,7 +51,7 @@ module Sinatra
                   end
                   filters.each do |k,v|
                     must do
-                      term k.to_s,v.to_s.downcase
+                      string "*#{v}*", {:fields => [k.to_s] }
                     end
                   end
                 end
@@ -164,6 +164,7 @@ module Sinatra
         end
         LAST_QUERY[:count]  = @count
         LAST_QUERY[:string] = query_string
+        LAST_QUERY[:filters]= filters
         if @results.nil?
           @results = []
           @count = 0
@@ -188,14 +189,21 @@ module Sinatra
 
     def find(options={}, query)
       if query
+        ap options
         s = Tire.search 'bsi' do
           query do
-            string query, {:fields => [options[:by].to_sym]}
+            boolean do
+              must do
+                term options[:by].to_sym, query.to_s
+              end
+              must do
+                term :type, options[:what].to_s
+              end
+            end
           end
-
-          filter :type, :value => options[:what]
         end
         results = s.results.map{|e| e.to_hash}
+        ap results
       else
         []
       end
