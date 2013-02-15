@@ -34,7 +34,7 @@
                 %label.control-label
                   #{k.gsub(/_/, ' ').strip.capitalize}:
                 .controls
-                  %input.filter.input-large(type='text' id="#{k}" name='#{k}' value="#{v}")
+                  %input.filter.input-small(type='text' id="#{k}" name='#{k}' value="#{v}")
         .form-actions
           %a#reset_filters.btn.btn-error(href="#{request.base_url}/search?#{query_string.to_s}") Reset
           %button#submit_filters.btn.btn-primary(type='submit') Filter
