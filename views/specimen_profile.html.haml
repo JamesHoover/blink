@@ -1,0 +1,20 @@
+= stylesheet_link_tag '/stylesheets/search.css'
+= javascript_include_tag '/js/search.js'
+= javascript_include_tag '/js/profile.js'
+%form.form-search.row-fluid
+  .input-append.span12
+    %input.span10.search-query#searchbox(type='text' autocomplete="off" placeholder='Tell me what you\'re looking for....' )
+    %button.btn#search_submit(type="submit") Search
+    %hr.span10
+.header.span10#profile_header
+  .header.pagination-centered
+    %h3 Specimen Profile
+  = haml :_result, :locals=>{:result=>@item, :display => ( @item.keys.grep(/^[^_]/) - ES_FIELDS ) }
+.related_data.span5
+  .header.pagination-centered
+    %h3 Related Specimens
+    %hr
+  .content.well
+    - @related.each do |result|
+      = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) }
+

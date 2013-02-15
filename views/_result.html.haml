@@ -1,0 +1,21 @@
+.search_result_item
+  - if result[:type] == "specimen"
+    %div(class="#{result[:_specimen_type]}_result")
+      ="#{result[:type]}:#{result["_#{result[:type]}_type".to_sym]}"
+  - else
+    %div(class="#{result[:type]}_result")
+      ="#{result[:type]}:#{result["_#{result[:type]}_type".to_sym]}"
+  .result_glob.row-fluid
+    .data.span8
+      - display.each do |field|
+        .search_result_info
+          ="#{field.to_s.gsub(/_/, ' ').capitalize}: "
+          - if field == result[:_pif_name]
+            %a(href="/browse/#{result[:type]}/#{result[:id]}")
+              ="#{result[field.to_sym]}"
+          - else
+            ="#{result[field.to_sym]}"
+    - if result[:_thumbnail]
+      .image.span1.pull-right
+        %a(href="#{result[:collibio_url]}")
+          %img(src="data:image/gif;base64,#{result[:_thumbnail]}")

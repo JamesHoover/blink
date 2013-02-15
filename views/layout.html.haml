@@ -1,0 +1,25 @@
+!!! 5
+%html
+  %head
+    %title BLINK
+    :css
+      body {padding-top: 60px;}
+    = javascript_include_tag "/js/jquery_1.8.2.min.js"
+    = javascript_include_tag "/js/bootstrap.js"
+    = stylesheet_link_tag "/stylesheets/bootstrap.css"
+  %body
+    .navbar.navbar-fixed-top.navbar-inverse
+      .navbar-inner
+        %a.brand{:href => '/'}
+          BLINK
+          -# %img{:src => '/img/logo.png'}
+        %ul.nav
+          %li
+            %a{ :href=>'/search'} Search
+          %li
+            %a{ :href=>'/browse'} Browse
+
+    .container.row-fluid
+      .box.offset1
+        = yield
+

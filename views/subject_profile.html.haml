@@ -1,0 +1,13 @@
+= stylesheet_link_tag '/stylesheets/search.css'
+.header.span10
+  .header.pagination-centered
+    %h3 Subject Profile
+  .content
+    = haml :_result, :locals=>{:result=>@item, :display => @item.keys.grep(/^[^_]/) - ES_FIELDS }
+.related_data.span5
+  .header.pagination-centered
+    %h3 Related Specimens
+    %hr
+  .content.well
+    - @related.each do |result|
+      = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) }

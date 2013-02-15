@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Revolution;
+  src: url('REVOLUTION.ttf');
+}
+
+.search_result_item {
+  display: block;
+  margin: 0 0 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.slide_result, .search_result_info, .subject_result, .block_result {
+  padding-left: .5em;
+}
+
+.slide_result, .subject_result, .block_result {
+  padding-bottom: 0em;
+  margin-bottom: 0.3em;
+  font-size: 20px;
+  color: #2e2633
+  line-height: 2em;
+  font-family: Revolution, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.slide_result {
+  background-color: #556270;
+}
+
+.block_result {
+  background-color: #FF6B6B;
+}
+.subject_result {
+  background-color: #c7f464;
+}
+
+.search_result_info {
+  font-family: Ariel, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 13px;
+  padding-top: 0.5em;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.image {
+  height: 100px
+  width: 100px
+}
