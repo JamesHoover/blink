@@ -16,9 +16,9 @@
                 #{field.to_s.gsub(/_/, ' ').strip.capitalize}:
               .controls
                 - if filter_fields[field].length > 5
-                  %input.filter.input-large(type='text' id="#{field}" name="#{field}" value="#{filters[field.to_s].to_s}")
+                  %input.filter.input-small(type='text' id="#{field}" name="#{field}" value="#{filters[field.to_s].to_s}")
                 - else
-                  %select.filter.input-large(id="#{field}" name="#{field}")
+                  %select.filter.input-small(id="#{field}" name="#{field}")
                     %option All
                     - filter_fields[field].each do |option|
                       - if option == filters[field.to_s]
