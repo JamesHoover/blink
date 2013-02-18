@@ -5,17 +5,17 @@
       %button.btn#search_submit(type="submit") Search
 .row
   - unless query_string == ""
-    .span4
+    .span6
       %form#filter.form-horizontal(data-spy='affix' data-offset-top='5' method='POST' action="#{request.base_url}/search?#{query_string.to_s}")
         %fieldset
           %legend
             Available Filters
-          - filter_fields.keys.each do |field|
+          - (filter_fields.keys-filters.keys).each do |field|
             .control-group
               %label.control-label
                 #{field.to_s.gsub(/_/, ' ').strip.capitalize}:
               .controls
-                - if filter_fields[field].length > 5
+                - if filter_fields[field].length > 5 || filter_fields[field].length == 0
                   %input.filter.input-small(type='text' id="#{field}" name="#{field}" value="#{filters[field.to_s].to_s}")
                 - else
                   %select.filter.input-small(id="#{field}" name="#{field}")
@@ -38,7 +38,7 @@
         .form-actions
           %a#reset_filters.btn.btn-error(href="#{request.base_url}/search?#{query_string.to_s}") Reset
           %button#submit_filters.btn.btn-primary(type='submit') Filter
-    .span6
+    .span4
       #results.well
         %h4.span4
           Results: #{@count}

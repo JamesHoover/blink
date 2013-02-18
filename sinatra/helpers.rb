@@ -26,7 +26,6 @@ module Sinatra
     end
 
     def simple_search(query_string, filters, search_type, page=0)
-      ap filters
       simple_search_query = Proc.new do
         boosting(:negative_boost => 0.2) do
 
@@ -71,6 +70,9 @@ module Sinatra
           from page*PAGE_SEARCH_SIZE
           size (page*PAGE_SEARCH_SIZE)+PAGE_SEARCH_SIZE-1
           instance_eval('query(&simple_search_query)')
+          facet 'types' do
+            terms :type
+          end
         else
           instance_eval(&simple_search_query)
         end
@@ -81,8 +83,7 @@ module Sinatra
         case search_type
         when :search
           # return results in hash form
-          ap s.results.map{|e| e.to_hash}
-          return s.results.map{|e| e.to_hash}
+          return { :results => s.results.map{|e| e.to_hash}, :facets=> s.results.facets }
         when :count
           return s
         end
@@ -153,17 +154,18 @@ module Sinatra
       # Store filter parameters passed.
       filters = request.POST.select{|k,v| !['All',''].include?(v) }
 
-      query_string =  request.query_string.chomp('.json').gsub(/%20/, ' ').gsub(/&/, '_').gsub(/\*/, '?').strip
+      query_string =  request.query_string.chomp('.json').gsub(/%20/, ' ').gsub(/&/, '_').gsub(/(.+)s$/){|s| $1}.gsub(/\*/, '?').strip
 
-      ap query_string
       unless query_string.empty?
         if query_string.split.length > 1
           @results  = nlp_search(query_string, filters, :search)
           @count    = nlp_search(query_string, filters, :count)
           LAST_QUERY[:type]  = :nlp
         else
-          @results  = simple_search(query_string, filters, :search)
-          @count    = simple_search(query_string, filters, :count)
+          search_results  = simple_search(query_string, filters, :search)
+          @results        = search_results[:results]
+          @facets         = search_results[:facets]
+          @count          = @facets['types']['total']
           LAST_QUERY[:type]  = :simple
         end
         LAST_QUERY[:count]  = @count
@@ -183,9 +185,9 @@ module Sinatra
         result = @results.first
         redirect to("/browse/#{result[:type]}/#{result[:id]}")
       end
-      ap @results
+      ap search_results
       respond_to do |wants|
-        wants.html { haml :search, :locals => {:request => request, :query_string => query_string, :filter_fields => get_filter_fields(@results), :filters => filters } }
+        wants.html { haml :search, :locals => {:request => request, :query_string => query_string, :filter_fields => get_filter_fields(search_results), :filters => filters } }
         wants.json { @results.to_json }
       end
 
@@ -193,7 +195,6 @@ module Sinatra
 
     def find(options={}, query)
       if query
-        ap options
         s = Tire.search 'bsi' do
           query do
             boolean do
@@ -207,7 +208,6 @@ module Sinatra
           end
         end
         results = s.results.map{|e| e.to_hash}
-        ap results
       else
         []
       end
@@ -234,14 +234,28 @@ module Sinatra
 
     end
 
-    def get_filter_fields(results)
+    def get_filter_fields(search_results)
       filter_fields = Hash.new{|hash,k| hash.store(k,[])}
-      results.each do |result|
-        result.select{|k,v| !(ES_FIELDS+result.keys.grep(/^_/)-[:_specimen_type, :_type]).include?(k) }.each do |k,v|
-          filter_fields.store(k, filter_fields[k].push(v.to_s).uniq)
+      unless search_results[:results].length == 99
+        search_results[:results].each do |result|
+          result.select{|k,v| !(ES_FIELDS+result.keys.grep(/^_/)-[:_specimen_type, :_type]).include?(k) }.each do |k,v|
+            filter_fields.store(k, filter_fields[k].push(v.to_s).uniq)
+          end
         end
+        filter_fields.select{|k,v| v.length > 1}
+      else
+        facets = search_results[:facets]
+        facets['types']['terms'].each do |term|
+          fields = HTTParty.get("http://localhost:9200/bsi/#{term['term']}/_mapping?").parsed_response[term['term']]['properties'].keys
+          out_fields = Hash.new{|hash,k| hash.store(k,[])}
+          fields.select{|v| !['_pif_name', '_pif_val', '_short_list', '_marker_type'].include?(v)}.each do |v|
+            out_fields.store(v, [])
+          end
+          filter_fields.merge!( out_fields )
+          filter_fields.merge!( {'type' => facets['types']['terms'].map{|v| v['term'] } } )
+        end
+        ap filter_fields
       end
-      filter_fields.select{|k,v| v.length > 1}
     end
 
     def format_slide(slide)
