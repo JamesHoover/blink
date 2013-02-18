@@ -149,6 +149,7 @@ module Sinatra
 
   module Basic
     def process_search_request(request)
+      search_results = {:results => [], :facets => {}}
       @results = Array.new
 
       # Store filter parameters passed.
