@@ -38,7 +38,7 @@ module Sinatra
                   end
                   filters.each do |k,v|
                     must do
-                      string "*#{v}*", {:fields => [k.to_s] }
+                      string "#{v}", {:fields => [k.to_s] }
                     end
                   end
                 end
@@ -50,7 +50,7 @@ module Sinatra
                   end
                   filters.each do |k,v|
                     must do
-                      string "*#{v}*", {:fields => [k.to_s] }
+                      string "#{v}", {:fields => [k.to_s] }
                     end
                   end
                 end
