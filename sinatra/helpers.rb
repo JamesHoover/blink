@@ -242,7 +242,6 @@ module Sinatra
             filter_fields.store(k, filter_fields[k].push(v.to_s).uniq)
           end
         end
-        filter_fields.select{|k,v| v.length > 1}
       else
         facets = search_results[:facets]
         facets['types']['terms'].each do |term|
@@ -254,7 +253,7 @@ module Sinatra
           filter_fields.merge!( out_fields )
           filter_fields.merge!( {'type' => facets['types']['terms'].map{|v| v['term'] } } )
         end
-        ap filter_fields
+        filter_fields.select{|k,v| v.length != 1}
       end
     end
 
