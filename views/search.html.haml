@@ -16,9 +16,9 @@
                 #{field.to_s.gsub(/_/, ' ').strip.capitalize}:
               .controls
                 - if filter_fields[field].length > 5 || filter_fields[field].length == 0
-                  %input.filter.input-small(type='text' id="#{field}" name="#{field}" value="#{filters[field.to_s].to_s}")
+                  %input.filter.input-medium(type='text' id="#{field}" name="#{field}" value="#{filters[field.to_s].to_s}")
                 - else
-                  %select.filter.input-small(id="#{field}" name="#{field}")
+                  %select.filter.input-medium(id="#{field}" name="#{field}")
                     %option All
                     - filter_fields[field].each do |option|
                       - if option == filters[field.to_s]
@@ -34,7 +34,7 @@
                 %label.control-label
                   #{k.gsub(/_/, ' ').strip.capitalize}:
                 .controls
-                  %input.filter.input-small(type='text' id="#{k}" name='#{k}' value="#{v}")
+                  %input.filter.input-medium(type='text' id="#{k}" name='#{k}' value="#{v}")
         .form-actions
           %a#reset_filters.btn.btn-error(href="#{request.base_url}/search?#{query_string.to_s}") Reset
           %button#submit_filters.btn.btn-primary(type='submit') Filter

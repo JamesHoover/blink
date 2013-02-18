@@ -155,7 +155,7 @@ module Sinatra
       # Store filter parameters passed.
       filters = request.POST.select{|k,v| !['All',''].include?(v) }
 
-      query_string =  request.query_string.chomp('.json').gsub(/%20/, ' ').gsub(/&/, '_').gsub(/(.+)s$/){|s| $1}.gsub(/\*/, '?').strip
+      query_string =  request.query_string.chomp('.json').gsub(/%20/, ' ').gsub(/(.+)s$/){|s| $1}.gsub(/\*/, '?').strip
 
       unless query_string.empty?
         if query_string.split.length > 1
