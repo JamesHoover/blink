@@ -149,7 +149,7 @@ module Sinatra
 
   module Basic
     def process_search_request(request)
-      search_results = {:results => [], :facets => {}}
+      search_results = Hash.new
       @results = Array.new
 
       # Store filter parameters passed.
@@ -181,12 +181,13 @@ module Sinatra
         session[:search_key] = LAST_QUERY.to_json
 
       end
+      puts "process_request search_results"
+      ap search_results
       # Go straight to the browse page if your search result only returns one result
       if @results.length == 1
         result = @results.first
         redirect to("/browse/#{result[:type]}/#{result[:id]}")
       end
-      ap search_results
       respond_to do |wants|
         wants.html { haml :search, :locals => {:request => request, :query_string => query_string, :filter_fields => get_filter_fields(search_results), :filters => filters } }
         wants.json { @results.to_json }
@@ -236,23 +237,26 @@ module Sinatra
     end
 
     def get_filter_fields(search_results)
+      puts "get filter search_results"
       filter_fields = Hash.new{|hash,k| hash.store(k,[])}
-      unless search_results[:results].length == 99
-        search_results[:results].each do |result|
-          result.select{|k,v| !(ES_FIELDS+result.keys.grep(/^_/)-[:_specimen_type, :_type]).include?(k) }.each do |k,v|
-            filter_fields.store(k, filter_fields[k].push(v.to_s).uniq)
+      if search_results[:results]
+        unless search_results[:results].length == 99
+          search_results[:results].each do |result|
+            result.select{|k,v| !(ES_FIELDS+result.keys.grep(/^_/)-[:_specimen_type, :_type]).include?(k) }.each do |k,v|
+              filter_fields.store(k, filter_fields[k].push(v.to_s).uniq)
+            end
           end
-        end
-      else
-        facets = search_results[:facets]
-        facets['types']['terms'].each do |term|
-          fields = HTTParty.get("http://localhost:9200/bsi/#{term['term']}/_mapping?").parsed_response[term['term']]['properties'].keys
-          out_fields = Hash.new{|hash,k| hash.store(k,[])}
-          fields.select{|v| !['_pif_name', '_pif_val', '_short_list', '_marker_type'].include?(v)}.each do |v|
-            out_fields.store(v, [])
+        else
+          facets = search_results[:facets]
+          facets['types']['terms'].each do |term|
+            fields = HTTParty.get("http://localhost:9200/bsi/#{term['term']}/_mapping?").parsed_response[term['term']]['properties'].keys
+            out_fields = Hash.new{|hash,k| hash.store(k,[])}
+            fields.select{|v| !['_pif_name', '_pif_val', '_short_list', '_marker_type'].include?(v)}.each do |v|
+              out_fields.store(v, [])
+            end
+            filter_fields.merge!( out_fields )
+            filter_fields.merge!( {'type' => facets['types']['terms'].map{|v| v['term'] } } )
           end
-          filter_fields.merge!( out_fields )
-          filter_fields.merge!( {'type' => facets['types']['terms'].map{|v| v['term'] } } )
         end
         filter_fields.select{|k,v| v.length != 1}
       end
