@@ -6,7 +6,7 @@
 .row
   - unless query_string == ""
     .span4
-      %form#filter.well.form-horizontal(data-spy='affix' data-offset-top='5' method='POST' action="#{request.base_url}/search?#{query_string.to_s}")
+      %form#filter.form-horizontal(data-spy='affix' data-offset-top='5' method='POST' action="#{request.base_url}/search?#{query_string.to_s}")
         %fieldset
           %legend
             Available Filters
@@ -40,7 +40,7 @@
           %button#submit_filters.btn.btn-primary(type='submit') Filter
     .span6
       #results.well
-        %h4.span3
+        %h4.span4
           Results: #{@count}
 
         %button#download_results.btn.btn-success.pull-right

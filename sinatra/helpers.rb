@@ -149,9 +149,13 @@ module Sinatra
   module Basic
     def process_search_request(request)
       @results = Array.new
+
+      # Store filter parameters passed.
       filters = request.POST.select{|k,v| !['All',''].include?(v) }
 
       query_string =  request.query_string.chomp('.json').gsub(/%20/, ' ').gsub(/\*/, '?').strip
+
+      ap query_string
       unless query_string.empty?
         if query_string.split.length > 1
           @results  = nlp_search(query_string, filters, :search)
