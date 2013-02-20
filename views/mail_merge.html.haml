@@ -1,0 +1,24 @@
+%form.form-horizontal(method="post" enctype='multipart/form-data')
+  %fieldset
+    %legend Slide batch control input
+    .control-group
+      %label.control-label Box number:
+      .controls
+        %input(type='text' name='box_number')
+    .control-group
+      %label.control-label ER Control ID:
+      .controls
+        %input(type='text' name='ER_control_id')
+    .control-group
+      %label.control-label PR Control ID:
+      .controls
+        %input(type='text' name='PR_control_id' )
+    .control-group
+      %label.control-label HER2 Control ID:
+      .controls
+        %input(type='text' name='HER2_control_id')
+    .control-group
+      %label.control-label Run Output File:
+      .controls
+        %input(type='file' name='fileupload')
+        %input.btn-small.btn-info(type='submit' value='Upload')

@@ -4,6 +4,7 @@ require 'sinatra/respond_to'
 require 'sinatra/static_assets'
 require './sinatra/helpers'
 require 'securerandom'
+require 'fileutils'
 require 'httparty'
 require 'awesome_print'
 require 'nokogiri'
@@ -118,6 +119,32 @@ get '/browse/?:type?/?:id?/?' do
     end
     haml :browse
   end
+
+end
+
+post '/controls' do
+  ap params
+  tempfile    = params['fileupload'][:tempfile]
+  filename    = params['fileupload'][:filename]
+  box_number  = params['box_number']
+  FileUtils.cp(tempfile.path, "./tmp/files/#{filename}")
+
+  # Check if all three controls passed
+  # TODO: make this and the form generate fields and checks dynamically based on protocol selection
+  unless params['ER_control_id'].nil? || params['PR_control_id'].nil? || params['HER2_control_id'].nil?
+    # Associate controls
+  end
+
+  # write mailmerge file
+  xls_path = generate_mail_merge("./tmp/files/#{filename}", box_number)
+  # send mailmerge file
+  send_file xls_path, :filename => "box_#{box_number}_labels.csv", :type => 'Application/octet-stream'
+
+end
+
+get '/controls' do
+
+  haml :mail_merge
 
 end
 

@@ -292,6 +292,29 @@ module Sinatra
 
     end
 
+    def generate_mail_merge(path, box_number)
+      xls_path = "./tmp/files/box_#{box_number}.csv"
+      blocks = Array.new
+      # Get case info
+      File.open(path).each do |line|
+        slide_label = line.match(/^\d{8}/)
+        block = find_specimen_by_label( slide_label ).first
+        unless block.nil?
+          block.keep_if {|k,v| [:protocol, :case_number, :block_id].include?(k)}
+          blocks << block
+        end
+        # csv << [slide[:protocol], slide[:case_number], slide[:block_id]]
+      end
+      # Write CSV file
+      CSV.open(xls_path, 'w') do |csv|
+        csv << ['Protocol', 'Case', 'Block']
+        blocks.uniq{|b| b[:block_id]}.each do |b|
+          csv << [b[:protocol], b[:case_number], b[:block_id]]
+        end
+      end
+      xls_path
+    end
+
     def build_error(code, message='', headers={})
 
       builder = Nokogiri::XML::Builder.new do |xml|
