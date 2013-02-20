@@ -292,19 +292,22 @@ module Sinatra
 
     end
 
-    def generate_mail_merge(path, box_number)
+    def generate_mail_merge(path, box_number, controls)
       xls_path = "./tmp/files/box_#{box_number}.csv"
       blocks = Array.new
       # Get case info
       File.open(path).each do |line|
         slide_label = line.match(/^\d{8}/)
-        block = find_specimen_by_label( slide_label ).first
-        unless block.nil?
-          block.keep_if {|k,v| [:protocol, :case_number, :block_id].include?(k)}
-          blocks << block
+        spec = find_specimen_by_label( slide_label ).first
+        unless spec.nil?
+          unless controls == {}
+            es_update('bsi', 'specimen', spec[:id], {'control_id' => controls[spec[:marker_name]]})
+          end
+          spec.keep_if {|k,v| [:protocol, :case_number, :block_id].include?(k)}
+          blocks << spec
         end
-        # csv << [slide[:protocol], slide[:case_number], slide[:block_id]]
       end
+
       # Write CSV file
       CSV.open(xls_path, 'w') do |csv|
         csv << ['Protocol', 'Case', 'Block']

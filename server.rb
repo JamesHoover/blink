@@ -123,7 +123,7 @@ get '/browse/?:type?/?:id?/?' do
 end
 
 post '/controls' do
-  ap params
+  controls = Hash.new
   tempfile    = params['fileupload'][:tempfile]
   filename    = params['fileupload'][:filename]
   box_number  = params['box_number']
@@ -133,10 +133,13 @@ post '/controls' do
   # TODO: make this and the form generate fields and checks dynamically based on protocol selection
   unless params['ER_control_id'].nil? || params['PR_control_id'].nil? || params['HER2_control_id'].nil?
     # Associate controls
+    controls['ER'] = params['ER_control_id']
+    controls['PR'] = params['PR_control_id']
+    controls['HER2'] = params['HER2_control_id']
   end
 
   # write mailmerge file
-  xls_path = generate_mail_merge("./tmp/files/#{filename}", box_number)
+  xls_path = generate_mail_merge("./tmp/files/#{filename}", box_number, controls)
   # send mailmerge file
   send_file xls_path, :filename => "box_#{box_number}_labels.csv", :type => 'Application/octet-stream'
 
