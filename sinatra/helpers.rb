@@ -195,9 +195,10 @@ module Sinatra
 
     end
 
-    def find(options={}, query)
+    def find(options, query, extras={})
+      options.merge!(extras)
       if query
-        s = Tire.search 'bsi' do
+        s = Tire.search options[:from] do
           query do
             boolean do
               must do

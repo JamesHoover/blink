@@ -101,6 +101,8 @@ get '/browse/?:type?/?:id?/?' do
     @item = send("retrieve_#{type}_by_id".to_sym, id)
     ap @item
     @related = find_specimen_by_case_number( @item[:case_number] )
+    @pt      = find_specimen_by_label( @item[:block_id], {:from => 'pt'}).first
+    @fw      = find_specimen_by_label( @item[:block_id], {:from => 'fw'}).first
     haml "#{params[:type]}_profile".to_sym
   elsif params[:type]
     @children = HTTParty.get( "http://localhost:9200/bsi/#{params[:type]}/_search?type:#{params[:type]}").parsed_response["hits"]["hits"].map do |hit|
@@ -195,7 +197,7 @@ end
 
 def method_missing(method_id, *arguments, &block)
   if method_id.to_s =~ /^(find|retrieve)_(subject|specimen|protocol)_by_(id|label|case_number)$/
-    finder, type, matcher = method_id.to_s.scan(/^(find|retrieve)_(subject|specimen|protocol)_by_(id|label|case_number)$/).flatten
+    finder, type, matcher = method_id.to_s.scan(/^(find|retrieve)_(subject|specimen|protocol)_by_(.+)$/).flatten
     send(finder, {:what => type, :by => matcher}, *arguments)
   else
     super
