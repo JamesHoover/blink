@@ -16,12 +16,10 @@
       - ['Field', 'BSI', 'Pathtrack', 'Freezerworks'].each do |header|
         %th #{header}
       - [:case_number, :label, :ian].each do |data|
-        - ap data
-          %td #{data.to_s.gsub(/_/, ' ').capitalize}
-          - [@item, @pt, @fw].each do |db|
-            %td.data
-              - ap db
-              #{db[data]}
+        %td #{data.to_s.gsub(/_/, ' ').capitalize}
+        - [@item, @pt, @fw].each do |db|
+          %td.data
+            #{db[data]}
 .related_data.span5
   .header.pagination-centered
     %h3 Related Specimens
