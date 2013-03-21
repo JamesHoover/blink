@@ -64,6 +64,7 @@ end
 get '/download' do
 
   last_user_query = JSON.parse session[:search_key]
+  ap last_user_query
   query_type   = last_user_query["type"]
   query_string = last_user_query["string"]
   filters      = last_user_query['filters']
@@ -99,7 +100,6 @@ get '/browse/?:type?/?:id?/?' do
   id   = params[:id]
   if params[:id]
     @item = send("retrieve_#{type}_by_id".to_sym, id)
-    ap @item
     @related = find_specimen_by_case_number( @item[:case_number] )
     #@pt      = find_specimen_by_label( @item[:block_id], {:from => 'pt'}).first
     #@fw      = find_specimen_by_label( @item[:block_id], {:from => 'fw'}).first

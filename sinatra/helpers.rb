@@ -68,7 +68,7 @@ module Sinatra
       simple_search_proc = Proc.new do
         if search_type == :search
           from page*PAGE_SEARCH_SIZE
-          size (page*PAGE_SEARCH_SIZE)+PAGE_SEARCH_SIZE-1
+          size PAGE_SEARCH_SIZE
           instance_eval('query(&simple_search_query)')
           facet 'types' do
             terms :type
