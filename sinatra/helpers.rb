@@ -188,9 +188,11 @@ module Sinatra
         result = @results.first
         redirect to("/browse/#{result[:type]}/#{result[:id]}")
       end
-      respond_to do |wants|
-        wants.html { haml :search, :locals => {:request => request, :query_string => query_string, :filter_fields => get_filter_fields(search_results), :filters => filters } }
-        wants.json { @results.to_json }
+
+      unless request.query_string.end_with?('.json')
+        haml :search, :locals => {:request => request, :query_string => query_string, :filter_fields => get_filter_fields(search_results), :filters => filters }
+      else
+        @results.to_json
       end
 
     end

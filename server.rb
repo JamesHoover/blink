@@ -74,7 +74,7 @@ get '/download' do
     headers = CSV_OUTPUT_FIELDS.map{|field| field.to_s.gsub(/_/, ' ').strip.capitalize}
     csv << headers
     while more_to_write
-      @current_page = send("#{query_type}_search".to_sym, query_string, filters, :search, page)
+      @current_page = send("#{query_type}_search".to_sym, query_string, filters, :search, page)[:results]
       if @current_page.length < PAGE_SEARCH_SIZE - 1
         more_to_write = false
       end
@@ -83,7 +83,7 @@ get '/download' do
         # make array of values we want to output
         row = Array.new
         CSV_OUTPUT_FIELDS.each do |field|
-          row << result[field].to_s
+          row << result[field]
         end
         csv << row
       end
