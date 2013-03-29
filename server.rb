@@ -23,22 +23,10 @@ ES_FIELDS = [:id, :sort, :highlight, :type]
 PAGE_SEARCH_SIZE = 100
 CSV_OUTPUT_FIELDS = [:label, :type, :_specimen_type, :protocol, :case_number]
 COLLIBIO_SLIDE_PARTIAL = "https://collibio.cancer.northwestern.edu/collibio/CollibioViewer.html?sharelinkid="
-
-# Check if we are on heroku
-if !ENV['HEROKU_POSTGRESQL_YELLOW_URL'].nil?
-  pg_url = ENV['HEROKU_POSTGRESQL_YELLOW_URL']
-  ON_HEROKU = true
-else
-  pg_url = ENV['PG_URL']
-  ON_HEROKU = false
-end
+ON_HEROKU = false
 
 enable :sessions
 Sinatra::Application.register Sinatra::RespondTo
-
-if ON_HEROKU
-  DB = Sequel.connect(pg_url)
-end
 
 ############################
 ### Webservice endpoints ###
