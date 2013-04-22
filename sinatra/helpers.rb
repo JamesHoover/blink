@@ -204,7 +204,7 @@ module Sinatra
           query do
             boolean do
               must do
-                term options[:by].to_sym, query.to_s
+                term options[:by].to_sym, query.to_s.downcase
               end
               must do
                 term :type, options[:what].to_s
