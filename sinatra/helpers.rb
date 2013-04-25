@@ -70,6 +70,9 @@ module Sinatra
           from page*PAGE_SEARCH_SIZE
           size PAGE_SEARCH_SIZE
           instance_eval('query(&simple_search_query)')
+          facet 'protocols' do
+            terms :protocol
+          end
           facet 'types' do
             terms :type
           end
@@ -243,7 +246,7 @@ module Sinatra
       puts "get filter search_results"
       filter_fields = Hash.new{|hash,k| hash.store(k,[])}
       if search_results[:results]
-        unless search_results[:results].length == 99
+        unless search_results[:results].length > 99
           search_results[:results].each do |result|
             result.select{|k,v| !(ES_FIELDS+result.keys.grep(/^_/)-[:_specimen_type, :_type]).include?(k) }.each do |k,v|
               filter_fields.store(k, filter_fields[k].push(v.to_s).uniq)
@@ -253,6 +256,7 @@ module Sinatra
           facets = search_results[:facets]
           facets['types']['terms'].each do |term|
             fields = HTTParty.get("http://localhost:9200/bsi/#{term['term']}/_mapping?").parsed_response[term['term']]['properties'].keys
+            ap fields
             out_fields = Hash.new{|hash,k| hash.store(k,[])}
             fields.select{|v| !['_pif_name', '_pif_val', '_short_list', '_marker_type'].include?(v)}.each do |v|
               out_fields.store(v, [])
