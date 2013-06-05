@@ -57,6 +57,8 @@ get '/download' do
   query_string = last_user_query["string"]
   filters      = last_user_query['filters']
 
+  # csv_output_fields = CSV_OUTPUT_FIELDS.merge()
+
   page = 0
   more_to_write = true
   CSV.open("tmp/downloads/#{last_user_query['search_key']}.csv", 'ab') do |csv|
@@ -72,7 +74,7 @@ get '/download' do
         # make array of values we want to output
         row = Array.new
         CSV_OUTPUT_FIELDS.each do |field|
-          row << result[field]
+          row << result[field].to_s
         end
         csv << row
       end
