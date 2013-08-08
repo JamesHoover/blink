@@ -300,8 +300,13 @@ module Sinatra
     end
 
     def generate_mail_merge(path, box_number, controls)
-      xls_path = "./tmp/files/box_#{box_number}.csv"
+      good_path = "./tmp/files/box_#{box_number}.csv"
+      bad_path  = "./tmp/files/errors_#{box_number}.csv"
+      zip_path  = "./tmp/files/box_#{box_number}.zip"
+
+
       blocks = Array.new
+      missing_slides = Array.new
       # Get case info
       File.open(path).each do |line|
         slide_label = line.match(/^\d{8}/)
@@ -312,17 +317,29 @@ module Sinatra
           end
           spec.keep_if {|k,v| [:protocol, :case_number, :block_id].include?(k)}
           blocks << spec
+        else
+          missing_slides << slide_label
         end
       end
 
-      # Write CSV file
-      CSV.open(xls_path, 'w') do |csv|
+      # Write CSV file for blocks that exist in the db
+      CSV.open(good_path, 'w') do |csv|
         csv << ['Protocol', 'Case', 'Block']
         blocks.uniq{|b| b[:block_id]}.each do |b|
           csv << [b[:protocol], b[:case_number], b[:block_id]]
         end
       end
-      xls_path
+
+      # Write CSV file for slides that we couldn't find in the db
+      CSV.open(bad_path, 'w') do |csv|
+        csv << ['Label']
+        missing_slides.each do |s|
+          csv << [s]
+        end
+      end
+      `zip #{zip_path} #{good_path} #{bad_path}`
+      # package all of this into a zip file
+      zip_path
     end
 
     def build_error(code, message='', headers={})

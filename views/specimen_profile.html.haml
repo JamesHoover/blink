@@ -10,16 +10,17 @@
   .header.pagination-centered
     %h3 Specimen Profile
   = haml :_result, :locals=>{:result=>@item, :display => ( @item.keys.grep(/^[^_]/) - ES_FIELDS ) }
-- if @item[:_specimen_type] == 'block'
-  .related_db.span10
-    %table.table.table-striped#other_db
-      - ['Field', 'BSI', 'Pathtrack', 'Freezerworks'].each do |header|
-        %th #{header}
-      - [:case_number, :label, :ian].each do |data|
-        %td #{data.to_s.gsub(/_/, ' ').capitalize}
-        - [@item, @pt, @fw].each do |db|
-          %td.data
-            #{db[data]}
+-#
+  - if @item[:_specimen_type] == 'block'
+    .related_db.span10
+      %table.table.table-striped#other_db
+        - ['Field', 'BSI', 'Pathtrack', 'Freezerworks'].each do |header|
+          %th #{header}
+        - [:case_number, :label, :ian].each do |data|
+          %td #{data.to_s.gsub(/_/, ' ').capitalize}
+          - [@item, @pt, @fw].each do |db|
+            %td.data
+              #{db[data]}
 .related_data.span5
   .header.pagination-centered
     %h3 Related Specimens
@@ -28,3 +29,12 @@
     - @related.each do |result|
       = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) }
 
+.related_data.span5
+  .header.pagination-centered
+    %h3 Specimen Heritage
+    %hr
+  .content
+    = haml :_result, :locals=>{:result=>@subject, :display =>  @subject[:_short_list] }
+    - @related.keep_if{ |r| r[:_specimen_type]=='block' && r[:case_number] == @item[:case_number] }.each do |result|
+      = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) } if result
+    = haml :_result, :locals=>{:result=>@item, :display =>  @item[:_short_list]}

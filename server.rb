@@ -91,6 +91,7 @@ get '/browse/?:type?/?:id?/?' do
   if params[:id]
     @item = send("retrieve_#{type}_by_id".to_sym, id)
     @related = find_specimen_by_case_number( @item[:case_number] )
+    @subject = find_subject_by_case_number( @item[:case_number] ).first
     #@pt      = find_specimen_by_label( @item[:block_id], {:from => 'pt'}).first
     #@fw      = find_specimen_by_label( @item[:block_id], {:from => 'fw'}).first
     haml "#{params[:type]}_profile".to_sym
@@ -130,10 +131,10 @@ post '/controls' do
     controls['HER2'] = params['HER2_control_id']
   end
 
-  # write mailmerge file
-  xls_path = generate_mail_merge("./tmp/files/#{filename}", box_number, controls)
+  # write result zip package
+  result_path = generate_mail_merge("./tmp/files/#{filename}", box_number, controls)
   # send mailmerge file
-  send_file xls_path, :filename => "box_#{box_number}_labels.csv", :type => 'Application/octet-stream'
+  send_file result_path, :filename => "box_#{box_number}_results.zip", :type => 'Application/octet-stream'
 
 end
 
