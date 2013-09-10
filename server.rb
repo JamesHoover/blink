@@ -21,7 +21,7 @@ require 'csv'
 LAST_QUERY = Hash.new
 ES_FIELDS = [:id, :sort, :highlight, :type]
 PAGE_SEARCH_SIZE = 100
-CSV_OUTPUT_FIELDS = [:label, :type, :_specimen_type, :protocol, :case_number]
+CSV_OUTPUT_FIELDS = [:label, :type, :_specimen_type, :protocol, :case_number, :marker_name]
 COLLIBIO_SLIDE_PARTIAL = "https://collibio.cancer.northwestern.edu/collibio/CollibioViewer.html?sharelinkid="
 ON_HEROKU = false
 
