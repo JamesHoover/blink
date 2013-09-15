@@ -45,6 +45,12 @@ post '/search' do
 
 end
 
+get '/visualize' do
+  respond_to do |wants|
+    wants.html { haml :visualize}
+  end
+end
+
 get '/search' do
   process_search_request(request)
 end

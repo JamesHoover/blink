@@ -1,6 +1,10 @@
 = stylesheet_link_tag '/stylesheets/search.css'
+= stylesheet_link_tag '/stylesheets/dendrogram.css'
 = javascript_include_tag '/js/search.js'
 = javascript_include_tag '/js/profile.js'
+= javascript_include_tag 'http://d3js.org/d3.v3.min.js'
+
+-# 
 %form.form-search.row-fluid
   .input-append.span12
     %input.span10.search-query#searchbox(type='text' autocomplete="off" placeholder='Tell me what you\'re looking for....' )
@@ -10,6 +14,14 @@
   .header.pagination-centered
     %h3 Specimen Profile
   = haml :_result, :locals=>{:result=>@item, :display => ( @item.keys.grep(/^[^_]/) - ES_FIELDS ) }
+.header.span10#dendrogram
+  .header.pagination-centered
+    %h3 Dendrogram
+    %hr
+  .content#dendrogram
+    :javascript
+      #{fetch_lineage_data(@item, @related)}
+
 .related_data.span5
   .header.pagination-centered
     %h3 Related Specimens

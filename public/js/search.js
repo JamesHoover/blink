@@ -21,7 +21,6 @@ $(document).ready(function() {
             var name = $(this).attr('id')
             filters[name] = $(this).val()
         })
-    
     })
 
     // Add typeahead handler
