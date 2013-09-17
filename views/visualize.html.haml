@@ -1,7 +1,13 @@
 = stylesheet_link_tag '/stylesheets/dendrogram.css'
-= javascript_include_tag 'http://d3js.org/d3.v3.min.js'
+= javascript_include_tag '/js/d3.v3.min.js'
+= javascript_include_tag '/js/search.js'
 = javascript_include_tag '/js/visualize.js'
-%h2 Visualizations coming soon !
+
+%form.form-search.row-fluid
+  .input-append.span12
+    %input.span10.search-query#searchbox(type='text' autocomplete="off" placeholder='Tell me what you\'re looking for....' )
+    %button.btn#search_submit(type="submit") Search
+    %hr.span10
 
 .header.span10#dendrogram
   .content#dendrogram

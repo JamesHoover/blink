@@ -57,7 +57,7 @@ module Mutations
 
   end
 
-  def fetch_lineage_data(item, related)
+  def fetch_lineage_data(related, item={})
 
     specimen_lineage =
       {:protocol =>

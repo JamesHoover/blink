@@ -9,7 +9,7 @@ $(document).ready(function() {
         return false;
     });
 
-    $('#search_nav').attr('class', 'active')
+    $('#visualize_nav').attr('class', 'active')
     $('#download_results').on('click', function(){
         window.open('/download', '_blank');
         window.focus();

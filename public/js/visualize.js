@@ -1,4 +1,14 @@
 $(document).ready(function(){
+    $('#searchbox').focus().select();
+    $('#search_submit').click(function(e){
+        e.preventDefault();
+        var query = $('#searchbox').val()
+        window.location.replace('http://'+window.location.host+'/search?'+query)
+        $('#searchbox').focus().select();
+        return false;
+    });
+
+    $('#visualize_nav').attr('class', 'active')
     if (!window.location.origin){
      window.location.origin = window.location.protocol+"//"+window.location.host;
     }
