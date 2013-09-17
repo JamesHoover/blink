@@ -4,7 +4,6 @@
 = javascript_include_tag '/js/profile.js'
 = javascript_include_tag 'http://d3js.org/d3.v3.min.js'
 
--# 
 %form.form-search.row-fluid
   .input-append.span12
     %input.span10.search-query#searchbox(type='text' autocomplete="off" placeholder='Tell me what you\'re looking for....' )
@@ -21,21 +20,21 @@
   .content#dendrogram
     :javascript
       #{fetch_lineage_data(@item, @related)}
+-#
+  .related_data.span5
+    .header.pagination-centered
+      %h3 Related Specimens
+      %hr
+    .content.well
+      - @related.each do |result|
+        = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) }
 
-.related_data.span5
-  .header.pagination-centered
-    %h3 Related Specimens
-    %hr
-  .content.well
-    - @related.each do |result|
-      = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) }
-
-.related_data.span5
-  .header.pagination-centered
-    %h3 Specimen Heritage
-    %hr
-  .content
-    = haml :_result, :locals=>{:result=>@subject, :display =>  @subject[:_short_list] } if @subject
-    - @related.keep_if{ |r| r[:_specimen_type]=='block' && r[:case_number] == @item[:case_number] }.each do |result|
-      = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) } if result
-    = haml :_result, :locals=>{:result=>@item, :display =>  @item[:_short_list]}
+  .related_data.span5
+    .header.pagination-centered
+      %h3 Specimen Heritage
+      %hr
+    .content
+      = haml :_result, :locals=>{:result=>@subject, :display =>  @subject[:_short_list] } if @subject
+      - @related.keep_if{ |r| r[:_specimen_type]=='block' && r[:case_number] == @item[:case_number] }.each do |result|
+        = haml :_result, :locals=>{:result=>result, :display => ( result[:_short_list] ) } if result
+      = haml :_result, :locals=>{:result=>@item, :display =>  @item[:_short_list]}

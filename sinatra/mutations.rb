@@ -1,41 +1,84 @@
 module Mutations
 
-  def fetch_lineage_data(item, related)
-    ORDER = [:protocol, :case_number, :block_id]
+  def generate_lineage_data(lineage_map, items)
+    if lineage_map.class == Hash
+      k = lineage_map.keys.first
 
-    lineage = "var lineage = {" +
-      
-    "
-        'name': '#{item[:case_number]}',
-        'children': [
-            {
-            'name': 'cluster',
-            'children': [
-                {'name': 'AgglomerativeCluster', 'size': 3938},
-                {'name': 'CommunityStructure', 'size': 3812},
-                {'name': 'HierarchicalCluster', 'size': 6714},
-                {'name': 'MergeEdge', 'size': 743}
-            ]
-        },
+      # Collect all top level params
+      range = items.map{|r| r[k]}.uniq!
+      final = range.map do |parent|
         {
-            'name': 'graph',
-            'children': [
-                {'name': 'BetweennessCentrality', 'size': 3534},
-                {'name': 'LinkDistance', 'size': 5731},
-                {'name': 'MaxFlowMinCut', 'size': 7840},
-                {'name': 'ShortestPaths', 'size': 5914},
-                {'name': 'SpanningTree', 'size': 3416}
-            ]
-        },
-        {
-            'name': 'optimization',
-            'children': [
-                {'name': 'AspectRatioBanker', 'size': 7074}
-            ]
+          :level => k.to_s.gsub(/_/, " ").capitalize,
+          :attrs => {
+            :label => parent.to_s
+          },
+          :children => generate_lineage_data(lineage_map[k], items.select{|s| s[k] == parent})
         }
-        ]
-    };
-    "
+      end
+    elsif items.length < 1 # Strange but possible end case, return empty array
+      []
+    else
+      # Check if there are blocks, if there are one more iteration
+      if items.map{|s| s[:_specimen_type]}.include?("block")
+        items.select{|y| y[:_specimen_type] == "block"}.map do |block|
+          slides = items.select{|spec| spec[:_specimen_type] == "slide"}.select{|x| x[:block_id].to_s == block[:id].to_s}
+          ap slides
+          {
+            :level => "block",
+            :attrs => block,
+            :children => generate_lineage_data("slide", slides)
+          }
+        end
+      else # All specimens are slides and more than 1 exists
+        items.sort_by!{|e| e[:id]}.map do |slide|
+          {
+            :level => "slide",
+            :attrs => slide,
+            :children => []
+          }
+        end
+      end
+    end
+
+  end
+
+  def translate_lineage_to_js(lineage, indent="  ", feed="")
+
+    attrs = Array.new
+    lineage[:attrs].merge({:level => lineage[:level]}).each{|k,v| attrs << "'#{k.to_s}': '#{v.to_s}'"}
+    feed << attrs.join(",\n")
+
+    if lineage[:children].length > 0
+      children = lineage[:children]
+      feed << ",\n#{indent}'children': [" + children.map{|child| "\n#{indent}  {" + translate_lineage_to_js(child, indent << "  ") + ","}.join("").chop + "\n#{indent}]\n}"
+    else
+      feed << "}"
+    end
+
+  end
+
+  def fetch_lineage_data(item, related)
+
+    specimen_lineage =
+      {:protocol =>
+        {:case_number =>
+          ["block", "slide"]
+        }
+      }
+
+    ruby_lineage = {
+      :level => "",
+      :attrs => {:label => "Pathcore"},
+      :children => generate_lineage_data(specimen_lineage, related)
+    }
+
+
+    js_lineage = "var lineage = {\n" +
+    translate_lineage_to_js(ruby_lineage).chop +
+    "\n};"
+    return js_lineage
+
+
   end
 
 end

@@ -1,1 +1,9 @@
-%h2 Visualization tools coming soon!
+= stylesheet_link_tag '/stylesheets/dendrogram.css'
+= javascript_include_tag 'http://d3js.org/d3.v3.min.js'
+= javascript_include_tag '/js/visualize.js'
+%h2 Visualizations coming soon !
+
+.header.span10#dendrogram
+  .content#dendrogram
+    :javascript
+      #{fetch_lineage_data(@item, @related)}

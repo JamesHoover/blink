@@ -5,20 +5,20 @@ $(document).ready(function(){
 
     $('body').scrollTop(100)
 
-    var width = 900, height = 900, dgrow = 0.3;
+    var width = 1300, height = 1200, dgrow = 0.3;
 
     var cluster = d3.layout.tree()
-    .size([width - 200, height - 200]);
+    .size([height - 200, width - 200]);
 
     var diagonal = d3.svg.diagonal()
-    .projection(function(d) { return [d.x, d.y]; });//flip it onto its side!
+    .projection(function(d) { return [d.y, d.x]; });//flip it onto its side!
 
     //set up the visualisation:
     var vis = d3.select("#dendrogram").append("svg")
-    .attr("width", height)
-    .attr("height", width)
+    .attr("width", width)
+    .attr("height", height)
     .append("g")
-    .attr("transform", "translate(0, 20)"); //once the graph is materialised, transform it 50 to the right (x), 0 up (y)
+    .attr("transform", "translate(50, 0)"); //once the graph is materialised, transform it 50 to the right (x), 0 up (y)
 
     var nodes = cluster.nodes(lineage);
 
