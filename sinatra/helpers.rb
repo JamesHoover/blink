@@ -3,7 +3,7 @@ require 'ap'
 require './sinatra/basic.rb'
 require './sinatra/search.rb'
 require './sinatra/mutations.rb'
-LIBS = `find . | grep ./sinatra/ | grep -v helpers.rb | grep -v .swp`.split(/\n/)
+LIBS = `find . | grep ./sinatra/ | grep -v helpers.rb | grep -v .swp | grep -v vendor`.split(/\n/)
 
 module Sinatra
 
