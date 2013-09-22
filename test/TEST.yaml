@@ -1,0 +1,6990 @@
+---
+:slides:
+- !ruby/object:Slide
+  id: ZZZ0003140001
+  protocol: E9901
+  source: ''
+  case_id: '11310'
+  block_id: ZZZ0003140000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003140002
+  protocol: E9901
+  source: ''
+  case_id: '11310'
+  block_id: ZZZ0003140000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003140003
+  protocol: E9901
+  source: ''
+  case_id: '11310'
+  block_id: ZZZ0003140000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003140004
+  protocol: E9901
+  source: ''
+  case_id: '11310'
+  block_id: ZZZ0003140000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003140005
+  protocol: E9901
+  source: ''
+  case_id: '11310'
+  block_id: ZZZ0003140000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0007660001
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007660000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007660002
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007660000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007660003
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007660000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007660004
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007660000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007660005
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007660000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0002770001
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0002770000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002770002
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0002770000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002770003
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0002770000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002770004
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0002770000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002770005
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0002770000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0006930001
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006930000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006930002
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006930000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006930003
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006930000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006930004
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006930000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006930005
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006930000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ000270001
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ000270000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000270002
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ000270000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000270003
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ000270000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000270004
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ000270000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000270005
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ000270000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0009940001
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0009940000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009940002
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0009940000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009940003
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0009940000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009940004
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0009940000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009940005
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0009940000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0001510001
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001510002
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001510003
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001510004
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001510005
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0004550001
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0004550000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004550002
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0004550000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004550003
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0004550000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004550004
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0004550000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004550005
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0004550000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0001900001
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0001900000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001900002
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0001900000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001900003
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0001900000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001900004
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0001900000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001900005
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0001900000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0006510001
+  protocol: E9901
+  source: ''
+  case_id: '15869'
+  block_id: ZZZ0006510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006510002
+  protocol: E9901
+  source: ''
+  case_id: '15869'
+  block_id: ZZZ0006510000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006510003
+  protocol: E9901
+  source: ''
+  case_id: '15869'
+  block_id: ZZZ0006510000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006510004
+  protocol: E9901
+  source: ''
+  case_id: '15869'
+  block_id: ZZZ0006510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007740001
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0007740000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007740002
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0007740000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007740003
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0007740000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007740004
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0007740000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007740005
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0007740000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0009230001
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009230000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009230002
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009230000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009230003
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009230000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009230004
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009230000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009230005
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009230000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0008700001
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008700002
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008700003
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008700004
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008700005
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0006960001
+  protocol: E9901
+  source: ''
+  case_id: '12200'
+  block_id: ZZZ0006960000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006960002
+  protocol: E9901
+  source: ''
+  case_id: '12200'
+  block_id: ZZZ0006960000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006960003
+  protocol: E9901
+  source: ''
+  case_id: '12200'
+  block_id: ZZZ0006960000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006960004
+  protocol: E9901
+  source: ''
+  case_id: '12200'
+  block_id: ZZZ0006960000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006960005
+  protocol: E9901
+  source: ''
+  case_id: '12200'
+  block_id: ZZZ0006960000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0004680001
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0004680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004680002
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0004680000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004680003
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0004680000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004680004
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0004680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000900001
+  protocol: E9901
+  source: ''
+  case_id: '15283'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000900002
+  protocol: E9901
+  source: ''
+  case_id: '15283'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000900003
+  protocol: E9901
+  source: ''
+  case_id: '15283'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000900004
+  protocol: E9901
+  source: ''
+  case_id: '15283'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000900005
+  protocol: E9901
+  source: ''
+  case_id: '15283'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0002710001
+  protocol: E9901
+  source: ''
+  case_id: '13001'
+  block_id: ZZZ0002710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002710002
+  protocol: E9901
+  source: ''
+  case_id: '13001'
+  block_id: ZZZ0002710000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002710003
+  protocol: E9901
+  source: ''
+  case_id: '13001'
+  block_id: ZZZ0002710000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002710004
+  protocol: E9901
+  source: ''
+  case_id: '13001'
+  block_id: ZZZ0002710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002710005
+  protocol: E9901
+  source: ''
+  case_id: '13001'
+  block_id: ZZZ0002710000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0004570001
+  protocol: E9901
+  source: ''
+  case_id: '15543'
+  block_id: ZZZ0004570000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004570002
+  protocol: E9901
+  source: ''
+  case_id: '15543'
+  block_id: ZZZ0004570000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004570003
+  protocol: E9901
+  source: ''
+  case_id: '15543'
+  block_id: ZZZ0004570000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004570004
+  protocol: E9901
+  source: ''
+  case_id: '15543'
+  block_id: ZZZ0004570000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004570005
+  protocol: E9901
+  source: ''
+  case_id: '15543'
+  block_id: ZZZ0004570000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0006670001
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ0006670000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006670002
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ0006670000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006670003
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ0006670000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006670004
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ0006670000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005460001
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005460002
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005460003
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005460004
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005460005
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0005460001
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005460002
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005460003
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005460004
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005460005
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ000850001
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000850000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000850002
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000850000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000850003
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000850000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000850004
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000850000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000850005
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000850000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ000510001
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000510002
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000510000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000510003
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000510000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000510004
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000510005
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000510000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0004710001
+  protocol: E9901
+  source: ''
+  case_id: '15933'
+  block_id: ZZZ0004710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004710002
+  protocol: E9901
+  source: ''
+  case_id: '15933'
+  block_id: ZZZ0004710000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004710003
+  protocol: E9901
+  source: ''
+  case_id: '15933'
+  block_id: ZZZ0004710000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004710004
+  protocol: E9901
+  source: ''
+  case_id: '15933'
+  block_id: ZZZ0004710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004710005
+  protocol: E9901
+  source: ''
+  case_id: '15933'
+  block_id: ZZZ0004710000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0001730001
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ0001730000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001730002
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ0001730000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001730003
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ0001730000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001730004
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ0001730000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001730005
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ0001730000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0002140001
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0002140000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002140002
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0002140000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002140003
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0002140000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002140004
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0002140000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002140005
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0002140000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0009670001
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0009670000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009670002
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0009670000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009670003
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0009670000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009670004
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0009670000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009670005
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0009670000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0001410001
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001410002
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001410003
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001410004
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007680001
+  protocol: E9901
+  source: ''
+  case_id: '16231'
+  block_id: ZZZ0007680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007680002
+  protocol: E9901
+  source: ''
+  case_id: '16231'
+  block_id: ZZZ0007680000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007680003
+  protocol: E9901
+  source: ''
+  case_id: '16231'
+  block_id: ZZZ0007680000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007680004
+  protocol: E9901
+  source: ''
+  case_id: '16231'
+  block_id: ZZZ0007680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002760001
+  protocol: E9901
+  source: ''
+  case_id: '13268'
+  block_id: ZZZ0002760000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002760002
+  protocol: E9901
+  source: ''
+  case_id: '13268'
+  block_id: ZZZ0002760000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002760003
+  protocol: E9901
+  source: ''
+  case_id: '13268'
+  block_id: ZZZ0002760000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002760004
+  protocol: E9901
+  source: ''
+  case_id: '13268'
+  block_id: ZZZ0002760000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005990001
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0005990000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005990002
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0005990000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005990003
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0005990000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005990004
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0005990000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001860001
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001860000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001860002
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001860000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001860003
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001860000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001860004
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001860000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005550001
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0005550000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005550002
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0005550000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005550003
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0005550000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005550004
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0005550000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007230001
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007230000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007230002
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007230000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007230003
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007230000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007230004
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007230000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009160001
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0009160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009160002
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0009160000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009160003
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0009160000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009160004
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0009160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001150001
+  protocol: E9901
+  source: ''
+  case_id: '20874'
+  block_id: ZZZ0001150000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001150002
+  protocol: E9901
+  source: ''
+  case_id: '20874'
+  block_id: ZZZ0001150000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001150003
+  protocol: E9901
+  source: ''
+  case_id: '20874'
+  block_id: ZZZ0001150000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001150004
+  protocol: E9901
+  source: ''
+  case_id: '20874'
+  block_id: ZZZ0001150000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003620001
+  protocol: E9901
+  source: ''
+  case_id: '11717'
+  block_id: ZZZ0003620000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003620002
+  protocol: E9901
+  source: ''
+  case_id: '11717'
+  block_id: ZZZ0003620000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003620003
+  protocol: E9901
+  source: ''
+  case_id: '11717'
+  block_id: ZZZ0003620000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003620004
+  protocol: E9901
+  source: ''
+  case_id: '11717'
+  block_id: ZZZ0003620000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003160001
+  protocol: E9901
+  source: ''
+  case_id: '16081'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003160002
+  protocol: E9901
+  source: ''
+  case_id: '16081'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003160003
+  protocol: E9901
+  source: ''
+  case_id: '16081'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003160004
+  protocol: E9901
+  source: ''
+  case_id: '16081'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005600001
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0005600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005600002
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0005600000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005600003
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0005600000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005600004
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0005600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ00050001
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ00050000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ00050002
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ00050000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ00050003
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ00050000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ00050004
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ00050000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001780001
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001780002
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001780003
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001780004
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007380001
+  protocol: E9901
+  source: ''
+  case_id: '16347'
+  block_id: ZZZ0007380000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007380002
+  protocol: E9901
+  source: ''
+  case_id: '16347'
+  block_id: ZZZ0007380000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007380003
+  protocol: E9901
+  source: ''
+  case_id: '16347'
+  block_id: ZZZ0007380000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007380004
+  protocol: E9901
+  source: ''
+  case_id: '16347'
+  block_id: ZZZ0007380000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001780001
+  protocol: E9901
+  source: ''
+  case_id: '11446'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001780002
+  protocol: E9901
+  source: ''
+  case_id: '11446'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001780003
+  protocol: E9901
+  source: ''
+  case_id: '11446'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001780004
+  protocol: E9901
+  source: ''
+  case_id: '11446'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006160001
+  protocol: E9901
+  source: ''
+  case_id: '18060'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006160002
+  protocol: E9901
+  source: ''
+  case_id: '18060'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006160003
+  protocol: E9901
+  source: ''
+  case_id: '18060'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006160004
+  protocol: E9901
+  source: ''
+  case_id: '18060'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000110001
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ000110000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000110002
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ000110000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000110003
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ000110000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000110004
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ000110000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005170001
+  protocol: E9901
+  source: ''
+  case_id: '17232'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005170002
+  protocol: E9901
+  source: ''
+  case_id: '17232'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005170003
+  protocol: E9901
+  source: ''
+  case_id: '17232'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005170004
+  protocol: E9901
+  source: ''
+  case_id: '17232'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000420001
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000420002
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000420003
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000420004
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006230001
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0006230000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006230002
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0006230000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006230003
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0006230000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006230004
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0006230000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009210001
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0009210000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009210002
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0009210000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009210003
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0009210000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009210004
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0009210000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009920001
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0009920000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009920002
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0009920000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009920003
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0009920000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009920004
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0009920000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003280001
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003280002
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003280003
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003280004
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001980001
+  protocol: E9901
+  source: ''
+  case_id: '19047'
+  block_id: ZZZ0001980000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001980002
+  protocol: E9901
+  source: ''
+  case_id: '19047'
+  block_id: ZZZ0001980000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001980003
+  protocol: E9901
+  source: ''
+  case_id: '19047'
+  block_id: ZZZ0001980000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001980004
+  protocol: E9901
+  source: ''
+  case_id: '19047'
+  block_id: ZZZ0001980000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003610001
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0003610000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003610002
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0003610000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003610003
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0003610000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003610004
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0003610000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001890001
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001890002
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001890003
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001890004
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006130001
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0006130000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006130002
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0006130000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006130003
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0006130000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006130004
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0006130000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005710001
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005710002
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005710003
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005710004
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000550001
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ000550000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000550002
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ000550000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000550003
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ000550000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000550004
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ000550000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009460001
+  protocol: E9901
+  source: ''
+  case_id: '16615'
+  block_id: ZZZ0009460000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009460002
+  protocol: E9901
+  source: ''
+  case_id: '16615'
+  block_id: ZZZ0009460000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009460003
+  protocol: E9901
+  source: ''
+  case_id: '16615'
+  block_id: ZZZ0009460000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009460004
+  protocol: E9901
+  source: ''
+  case_id: '16615'
+  block_id: ZZZ0009460000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005620001
+  protocol: E9901
+  source: ''
+  case_id: '17466'
+  block_id: ZZZ0005620000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005620002
+  protocol: E9901
+  source: ''
+  case_id: '17466'
+  block_id: ZZZ0005620000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005620003
+  protocol: E9901
+  source: ''
+  case_id: '17466'
+  block_id: ZZZ0005620000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005620004
+  protocol: E9901
+  source: ''
+  case_id: '17466'
+  block_id: ZZZ0005620000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007480001
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0007480000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007480002
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0007480000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007480003
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0007480000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007480004
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0007480000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004940001
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0004940000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004940002
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0004940000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004940003
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0004940000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004940004
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0004940000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009680001
+  protocol: E9901
+  source: ''
+  case_id: '16641'
+  block_id: ZZZ0009680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009680002
+  protocol: E9901
+  source: ''
+  case_id: '16641'
+  block_id: ZZZ0009680000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009680003
+  protocol: E9901
+  source: ''
+  case_id: '16641'
+  block_id: ZZZ0009680000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009680004
+  protocol: E9901
+  source: ''
+  case_id: '16641'
+  block_id: ZZZ0009680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001540001
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001540000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001540002
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001540000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001540003
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001540000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001540004
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001540000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009600001
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ0009600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009600002
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ0009600000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009600003
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ0009600000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009600004
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ0009600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000610001
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ000610000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000610002
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ000610000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000610003
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ000610000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000610004
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ000610000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007070001
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0007070000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007070002
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0007070000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007070003
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0007070000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007070004
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0007070000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008240001
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0008240000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008240002
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0008240000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008240003
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0008240000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008240004
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0008240000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002290001
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0002290000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002290002
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0002290000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002290003
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0002290000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002290004
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0002290000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003280001
+  protocol: E9901
+  source: ''
+  case_id: '11356'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003280002
+  protocol: E9901
+  source: ''
+  case_id: '11356'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003280003
+  protocol: E9901
+  source: ''
+  case_id: '11356'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003280004
+  protocol: E9901
+  source: ''
+  case_id: '11356'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001270001
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0001270000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001270002
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0001270000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001270003
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0001270000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001270004
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0001270000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002180001
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0002180000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002180002
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0002180000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002180003
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0002180000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002180004
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0002180000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006970001
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0006970000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006970002
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0006970000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006970003
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0006970000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006970004
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0006970000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006890001
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0006890000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006890002
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0006890000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006890003
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0006890000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006890004
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0006890000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003160001
+  protocol: E9901
+  source: ''
+  case_id: '16781'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003160002
+  protocol: E9901
+  source: ''
+  case_id: '16781'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003160003
+  protocol: E9901
+  source: ''
+  case_id: '16781'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003160004
+  protocol: E9901
+  source: ''
+  case_id: '16781'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003040001
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0003040000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003040002
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0003040000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003040003
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0003040000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003040004
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0003040000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004830001
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0004830000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004830002
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0004830000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004830003
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0004830000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004830004
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0004830000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006100001
+  protocol: E9901
+  source: ''
+  case_id: '11315'
+  block_id: ZZZ0006100000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006100002
+  protocol: E9901
+  source: ''
+  case_id: '11315'
+  block_id: ZZZ0006100000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006100003
+  protocol: E9901
+  source: ''
+  case_id: '11315'
+  block_id: ZZZ0006100000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006100004
+  protocol: E9901
+  source: ''
+  case_id: '11315'
+  block_id: ZZZ0006100000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005710001
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005710002
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005710003
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005710004
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006080001
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0006080000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006080002
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0006080000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006080003
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0006080000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006080004
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0006080000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009740001
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0009740000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009740002
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0009740000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009740003
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0009740000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009740004
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0009740000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006300001
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0006300000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006300002
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0006300000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006300003
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0006300000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006300004
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0006300000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002330001
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0002330000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002330002
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0002330000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002330003
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0002330000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002330004
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0002330000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006420001
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0006420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006420002
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0006420000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006420003
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0006420000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006420004
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0006420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008700001
+  protocol: E9901
+  source: ''
+  case_id: '17791'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008700002
+  protocol: E9901
+  source: ''
+  case_id: '17791'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008700003
+  protocol: E9901
+  source: ''
+  case_id: '17791'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008700004
+  protocol: E9901
+  source: ''
+  case_id: '17791'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005170001
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005170002
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005170003
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005170004
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003870001
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003870000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003870002
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003870000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003870003
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003870000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003870004
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003870000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009450001
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0009450000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009450002
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0009450000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009450003
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0009450000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009450004
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0009450000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009200001
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ0009200000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009200002
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ0009200000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009200003
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ0009200000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009200004
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ0009200000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008710001
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0008710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008710002
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0008710000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008710003
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0008710000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008710004
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0008710000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008600001
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0008600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008600002
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0008600000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008600003
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0008600000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008600004
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0008600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002250001
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0002250000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002250002
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0002250000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002250003
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0002250000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002250004
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0002250000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006160001
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006160002
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006160003
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006160004
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007340001
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0007340000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007340002
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0007340000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007340003
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0007340000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007340004
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0007340000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005590001
+  protocol: E9901
+  source: ''
+  case_id: '16738'
+  block_id: ZZZ0005590000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005590002
+  protocol: E9901
+  source: ''
+  case_id: '16738'
+  block_id: ZZZ0005590000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005590003
+  protocol: E9901
+  source: ''
+  case_id: '16738'
+  block_id: ZZZ0005590000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005590004
+  protocol: E9901
+  source: ''
+  case_id: '16738'
+  block_id: ZZZ0005590000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000540001
+  protocol: E9901
+  source: ''
+  case_id: '16999'
+  block_id: ZZZ000540000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000540002
+  protocol: E9901
+  source: ''
+  case_id: '16999'
+  block_id: ZZZ000540000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000540003
+  protocol: E9901
+  source: ''
+  case_id: '16999'
+  block_id: ZZZ000540000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000540004
+  protocol: E9901
+  source: ''
+  case_id: '16999'
+  block_id: ZZZ000540000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004340001
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0004340000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004340002
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0004340000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004340003
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0004340000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004340004
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0004340000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004150001
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004150000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004150002
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004150000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004150003
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004150000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004150004
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004150000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005880001
+  protocol: E9901
+  source: ''
+  case_id: '16627'
+  block_id: ZZZ0005880000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005880002
+  protocol: E9901
+  source: ''
+  case_id: '16627'
+  block_id: ZZZ0005880000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005880003
+  protocol: E9901
+  source: ''
+  case_id: '16627'
+  block_id: ZZZ0005880000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005880004
+  protocol: E9901
+  source: ''
+  case_id: '16627'
+  block_id: ZZZ0005880000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004050001
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0004050000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004050002
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0004050000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004050003
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0004050000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004050004
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0004050000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004770001
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ0004770000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004770002
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ0004770000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004770003
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ0004770000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004770004
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ0004770000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009340001
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0009340000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009340002
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0009340000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009340003
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0009340000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009340004
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0009340000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004990001
+  protocol: E9901
+  source: ''
+  case_id: '19725'
+  block_id: ZZZ0004990000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004990002
+  protocol: E9901
+  source: ''
+  case_id: '19725'
+  block_id: ZZZ0004990000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004990003
+  protocol: E9901
+  source: ''
+  case_id: '19725'
+  block_id: ZZZ0004990000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004990004
+  protocol: E9901
+  source: ''
+  case_id: '19725'
+  block_id: ZZZ0004990000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006600001
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006600002
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006600000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006600003
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006600000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006600004
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006600000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008620001
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0008620000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008620002
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0008620000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008620003
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0008620000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008620004
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0008620000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004840001
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0004840000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004840002
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0004840000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004840003
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0004840000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004840004
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0004840000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003580001
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0003580000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003580002
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0003580000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003580003
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0003580000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003580004
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0003580000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001890001
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001890002
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001890003
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001890004
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000790001
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ000790000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000790002
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ000790000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000790003
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ000790000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000790004
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ000790000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008420001
+  protocol: E9901
+  source: ''
+  case_id: '13598'
+  block_id: ZZZ0008420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008420002
+  protocol: E9901
+  source: ''
+  case_id: '13598'
+  block_id: ZZZ0008420000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008420003
+  protocol: E9901
+  source: ''
+  case_id: '13598'
+  block_id: ZZZ0008420000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008420004
+  protocol: E9901
+  source: ''
+  case_id: '13598'
+  block_id: ZZZ0008420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007760001
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0007760000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007760002
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0007760000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007760003
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0007760000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007760004
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0007760000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006020001
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ0006020000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006020002
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ0006020000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006020003
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ0006020000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006020004
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ0006020000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001570001
+  protocol: E9901
+  source: ''
+  case_id: '13632'
+  block_id: ZZZ0001570000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001570002
+  protocol: E9901
+  source: ''
+  case_id: '13632'
+  block_id: ZZZ0001570000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001570003
+  protocol: E9901
+  source: ''
+  case_id: '13632'
+  block_id: ZZZ0001570000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001570004
+  protocol: E9901
+  source: ''
+  case_id: '13632'
+  block_id: ZZZ0001570000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000240001
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000240000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000240002
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000240000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000240003
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000240000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000240004
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000240000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004290001
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0004290000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004290002
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0004290000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004290003
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0004290000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004290004
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0004290000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009980001
+  protocol: E9901
+  source: ''
+  case_id: '13963'
+  block_id: ZZZ0009980000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009980002
+  protocol: E9901
+  source: ''
+  case_id: '13963'
+  block_id: ZZZ0009980000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009980003
+  protocol: E9901
+  source: ''
+  case_id: '13963'
+  block_id: ZZZ0009980000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009980004
+  protocol: E9901
+  source: ''
+  case_id: '13963'
+  block_id: ZZZ0009980000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009980005
+  protocol: E9901
+  source: ''
+  case_id: '13963'
+  block_id: ZZZ0009980000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0005650001
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0005650000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005650002
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0005650000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005650003
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0005650000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005650004
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0005650000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005650005
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0005650000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0007540001
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0007540000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007540002
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0007540000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007540003
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0007540000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007540004
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0007540000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007540005
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0007540000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0005780001
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0005780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005780002
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0005780000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005780003
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0005780000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005780004
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0005780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005780005
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0005780000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0007200001
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0007200000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0007200002
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0007200000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0007200003
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0007200000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0007200004
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0007200000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0007200005
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0007200000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0009410001
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009410002
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009410000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009410003
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009410000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009410004
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009410005
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009410000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0001200001
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0001200000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001200002
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0001200000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001200003
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0001200000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001200004
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0001200000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001200005
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0001200000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0009360001
+  protocol: E9901
+  source: ''
+  case_id: '14984'
+  block_id: ZZZ0009360000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009360002
+  protocol: E9901
+  source: ''
+  case_id: '14984'
+  block_id: ZZZ0009360000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009360003
+  protocol: E9901
+  source: ''
+  case_id: '14984'
+  block_id: ZZZ0009360000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009360004
+  protocol: E9901
+  source: ''
+  case_id: '14984'
+  block_id: ZZZ0009360000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009360005
+  protocol: E9901
+  source: ''
+  case_id: '14984'
+  block_id: ZZZ0009360000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0004470001
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0004470000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004470002
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0004470000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004470003
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0004470000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004470004
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0004470000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002790001
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0002790000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002790002
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0002790000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002790003
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0002790000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002790004
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0002790000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003310001
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003310000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003310002
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003310000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003310003
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003310000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003310004
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003310000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001510001
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001510002
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001510003
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001510004
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001410001
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001410002
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001410003
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001410004
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001410005
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001410006
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001410007
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001410008
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001170001
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0001170000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001170002
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0001170000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001170003
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0001170000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001170004
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0001170000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002490001
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0002490000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002490002
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0002490000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002490003
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0002490000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002490004
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0002490000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006660001
+  protocol: E9901
+  source: ''
+  case_id: '13173'
+  block_id: ZZZ0006660000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006660002
+  protocol: E9901
+  source: ''
+  case_id: '13173'
+  block_id: ZZZ0006660000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006660003
+  protocol: E9901
+  source: ''
+  case_id: '13173'
+  block_id: ZZZ0006660000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006660004
+  protocol: E9901
+  source: ''
+  case_id: '13173'
+  block_id: ZZZ0006660000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004430001
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0004430000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004430002
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0004430000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004430003
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0004430000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004430004
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0004430000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004650001
+  protocol: E9901
+  source: ''
+  case_id: '15062'
+  block_id: ZZZ0004650000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004650002
+  protocol: E9901
+  source: ''
+  case_id: '15062'
+  block_id: ZZZ0004650000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004650003
+  protocol: E9901
+  source: ''
+  case_id: '15062'
+  block_id: ZZZ0004650000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004650004
+  protocol: E9901
+  source: ''
+  case_id: '15062'
+  block_id: ZZZ0004650000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0002780001
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0002780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0002780002
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0002780000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0002780003
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0002780000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0002780004
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0002780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004190001
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0004190000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004190002
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0004190000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004190003
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0004190000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004190004
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0004190000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000310001
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000310000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000310002
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000310000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000310003
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000310000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000310004
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000310000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0003000001
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0003000000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0003000002
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0003000000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0003000003
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0003000000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0003000004
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0003000000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0001490001
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001490000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0001490002
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001490000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0001490003
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001490000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0001490004
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001490000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005500001
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0005500000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005500002
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0005500000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005500003
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0005500000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005500004
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0005500000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005500005
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0005500000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0005510001
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0005510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0005510002
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0005510000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0005510003
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0005510000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0005510004
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0005510000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0005510005
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0005510000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ000420001
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000420002
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000420003
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000420004
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000420005
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+  marker: KI67
+- !ruby/object:Slide
+  id: ZZZ0008780001
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0008780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008780002
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0008780000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008780003
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0008780000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008780004
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0008780000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009110001
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0009110000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009110002
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0009110000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009110003
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0009110000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009110004
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0009110000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004930001
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0004930000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004930002
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0004930000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004930003
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0004930000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004930004
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0004930000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0009120001
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0009120000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0009120002
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0009120000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0009120003
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0009120000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0009120004
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0009120000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000350001
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ000350000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000350002
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ000350000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000350003
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ000350000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000350004
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ000350000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0004330001
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004330000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0004330002
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004330000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0004330003
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004330000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0004330004
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004330000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008100001
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008100002
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008100003
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008100004
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008100005
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008100006
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008100007
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008100008
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0006680001
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0006680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0006680002
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0006680000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0006680003
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0006680000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0006680004
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0006680000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ000900001
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ000900002
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ000900003
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ000900004
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+- !ruby/object:Slide
+  id: ZZZ0008080001
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0008080000
+  ian: ''
+  anatomic_site: Breast
+  marker: HE
+- !ruby/object:Slide
+  id: ZZZ0008080002
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0008080000
+  ian: ''
+  anatomic_site: Breast
+  marker: ER
+- !ruby/object:Slide
+  id: ZZZ0008080003
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0008080000
+  ian: ''
+  anatomic_site: Breast
+  marker: PR
+- !ruby/object:Slide
+  id: ZZZ0008080004
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0008080000
+  ian: ''
+  anatomic_site: Breast
+  marker: HER2
+:blocks:
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11310'
+  block_id: ZZZ0003140000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007660000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0002770000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006930000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ000270000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0009940000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0004550000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0001900000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15869'
+  block_id: ZZZ0006510000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0007740000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009230000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12200'
+  block_id: ZZZ0006960000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0004680000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15283'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13001'
+  block_id: ZZZ0002710000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15543'
+  block_id: ZZZ0004570000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ0006670000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0005460000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000850000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000510000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15933'
+  block_id: ZZZ0004710000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ0001730000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0002140000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0009670000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16231'
+  block_id: ZZZ0007680000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13268'
+  block_id: ZZZ0002760000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0005990000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001860000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0005550000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0007230000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0009160000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '20874'
+  block_id: ZZZ0001150000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11717'
+  block_id: ZZZ0003620000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16081'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0005600000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ00050000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16347'
+  block_id: ZZZ0007380000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11446'
+  block_id: ZZZ0001780000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '18060'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ000110000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '17232'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0006230000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0009210000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0009920000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16052'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '19047'
+  block_id: ZZZ0001980000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15932'
+  block_id: ZZZ0003610000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ0006130000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16363'
+  block_id: ZZZ000550000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16615'
+  block_id: ZZZ0009460000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '17466'
+  block_id: ZZZ0005620000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0007480000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11062'
+  block_id: ZZZ0004940000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16641'
+  block_id: ZZZ0009680000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001540000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16773'
+  block_id: ZZZ0009600000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ000610000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0007070000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0008240000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0002290000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11356'
+  block_id: ZZZ0003280000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0001270000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0002180000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11220'
+  block_id: ZZZ0006970000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0006890000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16781'
+  block_id: ZZZ0003160000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0003040000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16394'
+  block_id: ZZZ0004830000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11315'
+  block_id: ZZZ0006100000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0005710000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0006080000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0009740000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0006300000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0002330000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13523'
+  block_id: ZZZ0006420000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '17791'
+  block_id: ZZZ0008700000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10589'
+  block_id: ZZZ0005170000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003870000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15947'
+  block_id: ZZZ0009450000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ0009200000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15610'
+  block_id: ZZZ0008710000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15532'
+  block_id: ZZZ0008600000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12895'
+  block_id: ZZZ0002250000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0006160000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0007340000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16738'
+  block_id: ZZZ0005590000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16999'
+  block_id: ZZZ000540000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11969'
+  block_id: ZZZ0004340000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004150000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16627'
+  block_id: ZZZ0005880000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16644'
+  block_id: ZZZ0004050000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ0004770000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10732'
+  block_id: ZZZ0009340000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '19725'
+  block_id: ZZZ0004990000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0006600000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0008620000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0004840000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0003580000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '17006'
+  block_id: ZZZ0001890000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11939'
+  block_id: ZZZ000790000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13598'
+  block_id: ZZZ0008420000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0007760000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ0006020000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13632'
+  block_id: ZZZ0001570000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16570'
+  block_id: ZZZ000240000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0004290000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13963'
+  block_id: ZZZ0009980000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '14894'
+  block_id: ZZZ0005650000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16008'
+  block_id: ZZZ0007540000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0005780000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '18318'
+  block_id: ZZZ0007200000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16828'
+  block_id: ZZZ0009410000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11173'
+  block_id: ZZZ0001200000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '14984'
+  block_id: ZZZ0009360000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0004470000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10932'
+  block_id: ZZZ0002790000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10978'
+  block_id: ZZZ0003310000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16931'
+  block_id: ZZZ0001510000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15284'
+  block_id: ZZZ0001410000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10416'
+  block_id: ZZZ0001170000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0002490000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13173'
+  block_id: ZZZ0006660000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0004430000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15062'
+  block_id: ZZZ0004650000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10009'
+  block_id: ZZZ0002780000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '15342'
+  block_id: ZZZ0004190000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13948'
+  block_id: ZZZ000310000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12211'
+  block_id: ZZZ0003000000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11455'
+  block_id: ZZZ0001490000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16209'
+  block_id: ZZZ0005500000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12027'
+  block_id: ZZZ0005510000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12500'
+  block_id: ZZZ000420000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10970'
+  block_id: ZZZ0008780000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '20026'
+  block_id: ZZZ0009110000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '17162'
+  block_id: ZZZ0004930000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16898'
+  block_id: ZZZ0009120000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '14564'
+  block_id: ZZZ000350000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '10845'
+  block_id: ZZZ0004330000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '11955'
+  block_id: ZZZ0008100000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '16336'
+  block_id: ZZZ0006680000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '12278'
+  block_id: ZZZ000900000
+  ian: ''
+  anatomic_site: Breast
+- !ruby/object:Block
+  id: 
+  protocol: E9901
+  source: ''
+  case_id: '13017'
+  block_id: ZZZ0008080000
+  ian: ''
+  anatomic_site: Breast

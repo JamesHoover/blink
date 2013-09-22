@@ -101,6 +101,7 @@ get '/browse/?:type?/?:id?/?' do
   if params[:id]
     @item = send("retrieve_#{type}_by_id".to_sym, id)
     @related = find_specimen_by_case_number( @item[:case_number] )
+    ap @related
     @subject = find_subject_by_case_number( @item[:case_number] ).first
     #@pt      = find_specimen_by_label( @item[:block_id], {:from => 'pt'}).first
     #@fw      = find_specimen_by_label( @item[:block_id], {:from => 'fw'}).first
