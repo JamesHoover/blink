@@ -1,24 +1,29 @@
 $(document).ready(function(){
     $('#searchbox').focus().select();
+
+    $('#visualize_nav').attr('class', 'active')
+
     $('#search_submit').click(function(e){
         e.preventDefault();
         var query = $('#searchbox').val()
-        window.location.replace('http://'+window.location.host+'/search?'+query)
+        window.location.replace('http://'+window.location.host+'/visualize?'+query+'.json')
         $('#searchbox').focus().select();
         return false;
     });
-
-    $('#visualize_nav').attr('class', 'active')
+    //Workaround for non-webkit browsers
     if (!window.location.origin){
      window.location.origin = window.location.protocol+"//"+window.location.host;
     }
 
     $('body').scrollTop(100)
 
-    var width = 1300, height = 1200, dgrow = 0.3;
+    var num_children = data.num_children
+    var lineage = data.lineage
+
+    var width = 1200, height = (45*num_children)+500, dgrow = 0.3;
 
     var cluster = d3.layout.tree()
-    .size([height - 200, width - 200]);
+    .size([height - 200, width - 400]);
 
     var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });//flip it onto its side!
@@ -28,7 +33,7 @@ $(document).ready(function(){
     .attr("width", width)
     .attr("height", height)
     .append("g")
-    .attr("transform", "translate(50, 0)"); //once the graph is materialised, transform it 50 to the right (x), 0 up (y)
+    .attr("transform", "translate(90, 0)"); //once the graph is materialised, transform it 50 to the right (x), 0 up (y)
 
     var nodes = cluster.nodes(lineage);
 
@@ -42,7 +47,7 @@ $(document).ready(function(){
     .data(nodes)
     .enter().append("g")
     .attr("class", "node")
-    .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
 
     //the circles on the nodes:
     node.append("circle")
@@ -62,13 +67,13 @@ $(document).ready(function(){
 
     //where to put the text, if it has children, then place -8 to the left of the node, otherwise, +8 to the right
     node.append("text")
-    .attr("dx", function(d) { return d.children ? 10 : 10; })
-    .attr("dy", function(d) { return d.children ? 7 : 17; })
-    .attr("transform", function(d) { return d.children ? "rotate(0)": "rotate(45)";})
-    .attr("text-anchor", function(d) { return d.children ? "start" : "start"; })
+    .attr("dx", function(d) { return d.children ? -10 : 10; })
+    .attr("dy", function(d) { return d.children ? 7 : 7; })
+    .attr("transform", function(d) { return d.children ? "rotate(-30)": "rotate(0)";})
+    .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
     .text(function(d) {
-        var marker = d._specimen_type == "slide" ? " : "+d.marker_name : ''
-        return d._specimen_type == undefined ? d.level+": "+d.label : d._specimen_type+" : "+d.label+marker;
+        var marker = d._specimen_type == "Slide" ? "( "+d.marker_name+" )" : ''
+        return d._specimen_type == undefined ? d.level+": "+d.label : d.label+" : "+d._specimen_type+marker;
     });
 
 })

@@ -8,7 +8,7 @@ module Basic
     # Store filter parameters passed.
     filters = request.POST.select{|k,v| !['All',''].include?(v) }
 
-    query_string =  request.query_string.chomp('.json').gsub(/%20/, ' ').gsub(/(.+)s$/){|s| $1}.gsub(/\*/, '?').strip
+    query_string = request.query_string.chomp('.json').gsub(/%20/, ' ').gsub(/(.+)s$/){|s| $1}.gsub(/\*/, '?').strip
 
     unless query_string.empty?
       if query_string.split.length > 1
@@ -34,7 +34,7 @@ module Basic
       session[:search_key] = LAST_QUERY.to_json
 
     end
-    puts "process_request search_results"
+    puts "process_request for #{request.query_string} search_results"
     ap search_results
     # Go straight to the browse page if your search result only returns one result
     if @results.length == 1
@@ -222,5 +222,9 @@ module Basic
       payload = { "script" => "ctx._source.#{k.to_s} = '#{v}'"}
       HTTParty.post( "http://localhost:9200/#{index}/#{type}/#{id}/_update", :body=>payload.to_json )
     end
+  end
+
+  def base_url
+    @base_url ||= "#{request.env['rack.url_scheme']}://#{request.env['HTTP_HOST']}"
   end
 end

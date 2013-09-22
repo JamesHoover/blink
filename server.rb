@@ -46,6 +46,10 @@ post '/search' do
 end
 
 get '/visualize' do
+  query_string =  request.query_string.gsub(/%20/, ' ').gsub(/(.+)s$/){|s| $1}.gsub(/\*/, '?').strip
+  unless query_string == ""
+    @data = simple_search(query_string.gsub(/.json/, ''), {:type => "specimen"}, :search)[:results]
+  end
   respond_to do |wants|
     wants.html { haml :visualize}
   end

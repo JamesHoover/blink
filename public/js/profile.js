@@ -5,6 +5,7 @@ $(document).ready(function(){
 
     $('body').scrollTop(100)
 
+    var lineage = data.lineage
     var width = 900, height = 900, dgrow = 0.3;
 
     var cluster = d3.layout.tree()
