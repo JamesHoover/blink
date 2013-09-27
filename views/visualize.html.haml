@@ -1,0 +1,14 @@
+= stylesheet_link_tag '/stylesheets/dendrogram.css'
+= javascript_include_tag '/js/d3.v3.min.js'
+= javascript_include_tag '/js/visualize.js'
+
+%form.form-search.span10
+  .input-append.span12
+    %input.span12.search-query#searchbox(type='text' autocomplete="off" placeholder='Tell me what you\'re looking for....')
+    %button.btn#search_submit(type="submit") Search
+
+.header.span10#dendrogram
+  .content#dendrogram
+    - if @data
+      :javascript
+        #{fetch_lineage_data(@data)}

@@ -45,6 +45,16 @@ post '/search' do
 
 end
 
+get '/visualize' do
+  query_string =  request.query_string.gsub(/%20/, ' ').gsub(/(.+)s$/){|s| $1}.gsub(/\*/, '?').strip
+  unless query_string == ""
+    @data = simple_search(query_string.gsub(/.json/, ''), {:type => "specimen"}, :search)[:results]
+  end
+  respond_to do |wants|
+    wants.html { haml :visualize}
+  end
+end
+
 get '/search' do
   process_search_request(request)
 end
@@ -91,6 +101,8 @@ get '/browse/?:type?/?:id?/?' do
   if params[:id]
     @item = send("retrieve_#{type}_by_id".to_sym, id)
     @related = find_specimen_by_case_number( @item[:case_number] )
+    puts "Specimens related to case: #{ @item[:case_number] }"
+    ap @related
     @subject = find_subject_by_case_number( @item[:case_number] ).first
     #@pt      = find_specimen_by_label( @item[:block_id], {:from => 'pt'}).first
     #@fw      = find_specimen_by_label( @item[:block_id], {:from => 'fw'}).first
