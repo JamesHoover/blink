@@ -52,20 +52,11 @@ module Basic
 
   def find(options, query, extras={})
     options.merge!(extras)
+
     if query
-      s = Tire.search options[:from] do
-        query do
-          boolean do
-            must do
-              term options[:by].to_sym, query.to_s.downcase
-            end
-            must do
-              term :type, options[:what].to_s
-            end
-          end
-        end
-      end
-      results = s.results.map{|e| e.to_hash}
+      s = simple_search(query, {options[:by].to_sym => query, :type => options[:what].to_s}, :search)
+
+      s[:results]
     else
       []
     end

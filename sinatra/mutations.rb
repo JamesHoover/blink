@@ -9,6 +9,9 @@ module Mutations
         }
       }
 
+    puts "Building lineage for this set of specimens"
+    ap related
+
     ruby_lineage = {
       :level => "",
       :attrs => {:label => "Pathcore"},
@@ -48,7 +51,6 @@ module Mutations
       if items.map{|s| s[:_specimen_type]}.include?("block")
         items.select{|y| y[:_specimen_type] == "block"}.map do |block|
           slides = items.select{|spec| spec[:_specimen_type] == "slide"}.select{|x| x[:block_id].to_s == block[:id].to_s}
-          ap slides
           {
             :level => "block",
             :attrs => block,
