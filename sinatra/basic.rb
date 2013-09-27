@@ -45,7 +45,7 @@ module Basic
     unless request.query_string.end_with?('.json')
       haml :search, :locals => {:request => request, :query_string => query_string, :filter_fields => get_filter_fields(search_results), :filters => filters }
     else
-      @results.to_json
+      search_results.to_json
     end
 
   end
