@@ -34,6 +34,7 @@ Sinatra::Application.register Sinatra::RespondTo
 
 # Page root
 get '/' do
+  env['aker.check'].authentication_required!
   respond_to do |wants|
     wants.html { haml :index }
   end
@@ -206,3 +207,8 @@ def method_missing(method_id, *arguments, &block)
     super
   end
 end
+
+require 'aker'
+Aker.configure{
+  authority Aker::Authorities::Static.from_file("./environments/development_users.yml")
+}

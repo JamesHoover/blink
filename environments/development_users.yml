@@ -1,0 +1,17 @@
+users:
+  admin:
+    password: secret
+    first_name: Joe
+    last_name: User
+    email: q-usern@northwestern.edu
+  edc236:
+    password: password
+    first_name: Elijah
+    last_name: Christensen
+    email: elijah.christensen@northwestern.edu
+    portals:
+      role:
+        - admin
+groups:
+  role:
+      - admin
