@@ -33,6 +33,11 @@ Sinatra::Application.register Sinatra::RespondTo
 ############################
 
 # Page root
+
+get '/james' do
+  haml :james
+end
+
 get '/' do
   respond_to do |wants|
     wants.html { haml :index }
