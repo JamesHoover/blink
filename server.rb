@@ -59,6 +59,12 @@ get '/search' do
   process_search_request(request)
 end
 
+get '/migrate' do
+  respond_to do |wants|
+    wants.html { haml :migrate }
+  end
+end
+
 get '/download' do
 
   last_user_query = JSON.parse session[:search_key]

@@ -1,0 +1,24 @@
+%form.form-horizontal(method="post" enctype='multipart/form-data')
+  %fieldset
+    %legend Migrate Excel sheets to BSI
+    .control-group
+      %label.control-label BSI Environment:
+      .controls
+        %select(name='bsi_env')
+    .control-group
+      %label.control-label ER Control ID:
+      .controls
+        %input(type='text' name='ER_control_id')
+    .control-group
+      %label.control-label PR Control ID:
+      .controls
+        %input(type='text' name='PR_control_id' )
+    .control-group
+      %label.control-label HER2 Control ID:
+      .controls
+        %input(type='text' name='HER2_control_id')
+    .control-group
+      %label.control-label Excel File (.xls or .xlsx):
+      .controls
+        %input(type='file' name='fileupload')
+        %input.btn-small.btn-info(type='submit' value='Upload')
