@@ -1,0 +1,61 @@
+= javascript_include_tag '/js/jobs.js'
+%form.form-horizontal(method="post" enctype='multipart/form-data')
+  %fieldset
+    %legend Start a new job
+    .control-group
+      %label.control-label Job Specification:
+      .controls
+        %select(name='job')
+          - `find ./jobs | grep .yaml`.split(/\n/).each do |job|
+            %option(value="#{job}")= job.match( /[\w]+\/(.+)_job\.yaml/i )[1].gsub(/_/, ' ').capitalize
+    .control-group.hide
+      %label.control-label BSI Environment:
+      .controls
+        %select(name='bsi_env')
+          - `find ./data | grep _key`.split(/\n/).each do |key|
+            %option= key
+    .control-group.hide
+      %label.control-label Data Migration Type
+      .controls
+        %select(name='data_type')
+          %option Specimens
+          %option Subjects
+          %option Results (Beta)
+    %button.btn.btn-default(type='submit') Submit
+  -#
+    .control-group
+      %label.control-label Excel File (.xls, .xlsx, .csv):
+      .controls
+        %input(type='file' name='fileupload')
+        %input.btn-small.btn-info(type='submit' value='Upload')
+%h3 Job Queue:
+%hr
+.span10
+  %table.table.table-striped.table-hover.table-condensed
+    %caption
+    %thead
+      %tr
+        %th Job ID
+        %th Job Name
+        %th State
+        %th Progress
+    %tbody
+      -if @working_jobs
+        - @working_jobs.each do |job|
+          %tr.job-working(id="#{job.uuid}")
+            %td
+              %a(href="/jobs/#{job.uuid}") #{job.uuid}
+            %td #{job['options']['name']}
+            %td #{job.status.capitalize}
+            %td
+              .progress.progress-striped.active
+                .bar(role='progressbar' style="width: #{job.pct_complete}%")
+                  %span.sr-only #{job.pct_complete}% Complete
+      -if @queued_jobs
+        - @queued_jobs.each do |job|
+          %tr(id="#{job.uuid}")
+            %td
+              %a(href="/jobs/#{job.uuid}") #{job.uuid}
+            %td #{job['options']['name']}
+            %td #{job.status.capitalize}
+            %td

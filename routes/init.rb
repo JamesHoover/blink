@@ -1,7 +1,6 @@
-require 'sinatra'
-require 'sinatra/sequel'
 require 'sinatra/respond_to'
 require 'sinatra/static_assets'
+require 'sinatra/streaming'
 require './sinatra/helpers'
 require 'securerandom'
 require 'fileutils'
@@ -13,9 +12,14 @@ require 'haml'
 require 'tire'
 require 'log4r'
 require 'csv'
+require 'resque'
+require 'resque-status'
+require './lib/bbi.rb'
+require './lib/sleep_job.rb'
+require './lib/csv_report.rb'
 
 ############################
-#### Boilerplate setup  ####
+#### Boilerplate        ####
 ############################
 
 LAST_QUERY = Hash.new
@@ -25,13 +29,13 @@ CSV_OUTPUT_FIELDS = [:label, :type, :_specimen_type, :protocol, :case_number, :m
 COLLIBIO_SLIDE_PARTIAL = "https://collibio.cancer.northwestern.edu/collibio/CollibioViewer.html?sharelinkid="
 ON_HEROKU = false
 
-enable :sessions
 Sinatra::Application.register Sinatra::RespondTo
 
 ############################
 ### Webservice endpoints ###
 ############################
 
+require_relative 'jobs'
 # Page root
 get '/' do
   respond_to do |wants|
@@ -59,45 +63,15 @@ get '/search' do
   process_search_request(request)
 end
 
-get '/migrate' do
-  respond_to do |wants|
-    wants.html { haml :migrate }
-  end
-end
-
 get '/download' do
 
-  last_user_query = JSON.parse session[:search_key]
-  ap last_user_query
-  query_type   = last_user_query["type"]
-  query_string = last_user_query["string"]
-  filters      = last_user_query['filters']
-
-  # csv_output_fields = CSV_OUTPUT_FIELDS.merge()
-
-  page = 0
-  more_to_write = true
-  CSV.open("tmp/downloads/#{last_user_query['search_key']}.csv", 'ab') do |csv|
-    headers = CSV_OUTPUT_FIELDS.map{|field| field.to_s.gsub(/_/, ' ').strip.capitalize}
-    csv << headers
-    while more_to_write
-      @current_page = send("#{query_type}_search".to_sym, query_string, filters, :search, page)[:results]
-      if @current_page.length < PAGE_SEARCH_SIZE - 1
-        more_to_write = false
-      end
-      # write the page
-      @current_page.each do |result|
-        # make array of values we want to output
-        row = Array.new
-        CSV_OUTPUT_FIELDS.each do |field|
-          row << result[field].to_s
-        end
-        csv << row
-      end
-      page = page + 1
-    end
-  end
-  send_file "./tmp/downloads/#{last_user_query['search_key']}.csv", :filename => "blink_report.csv", :type => 'Application/octet-stream'
+  query = JSON.parse( session[:search_key] )
+  ap query
+  job_id = CSVReport.create('name'          => 'CSV Report',
+                            'output_fields' => CSV_OUTPUT_FIELDS,
+                            'query'         => query
+                           )
+  redirect("/jobs/#{job_id}")
 
 end
 
@@ -108,7 +82,6 @@ get '/browse/?:type?/?:id?/?' do
     @item = send("retrieve_#{type}_by_id".to_sym, id)
     @related = find_specimen_by_case_number( @item[:case_number] )
     puts "Specimens related to case: #{ @item[:case_number] }"
-    ap @related
     @subject = find_subject_by_case_number( @item[:case_number] ).first
     #@pt      = find_specimen_by_label( @item[:block_id], {:from => 'pt'}).first
     #@fw      = find_specimen_by_label( @item[:block_id], {:from => 'fw'}).first

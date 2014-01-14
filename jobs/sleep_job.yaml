@@ -1,0 +1,4 @@
+---
+:exec: 'SleepJob.create({"name" => "Sleep"})'
+:libs:
+  - 'sleep_job.rb'

@@ -1,0 +1,19 @@
+---
+  :project_name:        bti_specimens
+  :key_path:            ./data/biorepository_mirror_key.yaml
+  :parser:              ./lib/parsers/bti_specimen_parser.rb
+  :formatter:           ./lib/formatters/bti_specimen_formatter.rb
+  :model:               ./lib/models/specimen.rb
+  :importer:            ./lib/importers/specimen.rb
+  :file_path:           ./data/bsi2_bti_full.csv
+  :location_map_path:   ./data/bti_freezer_map.yaml
+  :item_attributes:
+    'vial.repos_id':      'Biorepository'
+    'vial.field_269':     'BTI' # Biobank field
+    'vial.vial_status':   'In'
+  :job_attributes:
+    :repos_id:            'Biorepository'
+  :import_options:
+    :commit:              false
+    :debug:               false
+    :lazy:                false

@@ -1,6 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 gem 'sinatra'
+gem 'sinatra-contrib'
 gem 'sinatra-static-assets'
 gem 'pg'
 gem 'sinatra-sequel'
@@ -17,5 +18,10 @@ gem 'capistrano'
 gem 'tire', '~>0.5.4'
 gem 'log4r'
 gem 'foreman'
-
+gem 'resque', '~>1.1'
+gem 'resque-status'
+gem 'rbc'
+gem 'roo'
+gem 'logger'
+gem 'chronic'
 # gem "rails"

@@ -1,0 +1,8 @@
+= javascript_include_tag '/js/job.js'
+.span10
+  %h3 Job ID: #{@job.uuid}
+  %hr
+  .job-working(id="#{@job.uuid}")
+    .progress.progress-striped.active
+      .bar(role='progressbar' style="width: #{@job.pct_complete}%")
+        %span.sr-only #{@job.pct_complete}% Complete

@@ -1,5 +1,6 @@
-require 'rubygems'
 require 'sinatra'
-require './server.rb'
+require './app.rb'
 
-run Sinatra::Application
+root = ::File.dirname(__FILE__)
+require ::File.join( root, 'app' )
+run Blink.new
