@@ -17,7 +17,7 @@ require CONFIGS[:importer]
 
 class Handler
 
-  include Resque::Plugins::Status
+  include Resque::Plugins::Status if CONFIGS[:resque]
 
   # Mixin added functionality
   include Parser

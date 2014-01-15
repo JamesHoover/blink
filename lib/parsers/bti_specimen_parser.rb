@@ -2,6 +2,7 @@
 module Parser
   require 'roo'
   require 'csv'
+  require 'chronic'
   require CONFIGS[:model]
 
   # Monkey patch Symbol so we can use methods in case/when
@@ -34,11 +35,13 @@ module Parser
   def parse(file_path)
 
     @specimens = Array.new
+    @failed_rows = Array.new
 
     # build in memory specimen lookup table here based on jeremy's freezer spreadsheet data
     @location_map = YAML::load(File.open(CONFIGS[:location_map_path]))
     @dummy_boxes = {}
     counter = 1
+
     CSV.foreach(file_path, :headers => true) do |csv|
       s = Specimen.new
       print "Reading row: #{counter}                 \r"
@@ -51,7 +54,7 @@ module Parser
       s.protocol        = csv['protocol_normalized']
       s.ian             = csv['surgery_number_normalized'].to_s
       s.ian_part        = csv['surgery_number_part_normalized'].to_s
-      s.type            = csv['sample_type'].to_s
+      s.type            = csv['sample_type_normalized'].to_s
 
       case s.type
       when /ffpe/i
@@ -69,7 +72,7 @@ module Parser
       end
 
       s.date_received   = csv['sample_date']
-      s.date_drawn      = s.date_received
+      s.date_drawn      = (Chronic.parse(s.date_received).to_i - 1).to_s
       s.stain_type      = csv['histo_stain']
       s.parent_id       = csv['parent_id_normalized']
 
@@ -97,24 +100,37 @@ module Parser
             @dummy_boxes.store( s.box, dummy_box )
         end
         slot_location = @dummy_boxes[s.box].next_slot
+      else
       end
 
-      next unless s.box =~ /\d{6}/ && @location_map.keys.include?(s.box)
+      if s.box =~ /\d{6}/ && @location_map.keys.include?(s.box) && csv['status'].downcase == 'collected'
+        s.building        = @location_map[s.box][:building]
+        s.room            = @location_map[s.box][:room]
+        s.freezer         = @location_map[s.box][:freezer].to_s
+        s.shelf           = @location_map[s.box][:shelf]
+        s.rack            = @location_map[s.box][:rack]
 
-      s.building        = @location_map[s.box][:building]
-      s.room            = @location_map[s.box][:room]
-      s.freezer         = @location_map[s.box][:freezer].to_s
-      s.shelf           = @location_map[s.box][:shelf]
-      s.rack            = @location_map[s.box][:rack]
+        s.col             = slot_location[0]
+        s.row             = slot_location[1]
 
-      s.col             = slot_location[0]
-      s.row             = slot_location[1]
+        @specimens << s
 
-      @specimens << s
-
-      counter += 1
+        counter += 1
+      else
+        @failed_rows << csv.to_hash
+        next
+      end
 
     end
+
+    columns = @failed_rows.first.keys
+    s=CSV.generate do |csv|
+      csv << columns
+      @failed_rows.each do |x|
+        csv << x.values
+      end
+    end
+    File.write('./tmp/failed_rows.csv', s)
 
     @specimens.uniq{|s| s.current_label}
   end

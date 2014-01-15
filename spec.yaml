@@ -16,4 +16,5 @@
   :import_options:
     :commit:              false
     :debug:               false
+    :resque:              false
     :lazy:                false
